@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Diving in Android Security | Sarvagya Sagar</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Diving in Android Security" />
+<meta name="author" content="Sarvagya Sagar" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hello everyone, This is my first blog post. Many of my friends suggested me to get into Android Security. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article." />
+<meta property="og:description" content="Hello everyone, This is my first blog post. Many of my friends suggested me to get into Android Security. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article." />
+<link rel="canonical" href="https://iamsarvagyaa.github.io/android-security-part-one/" />
+<meta property="og:url" content="https://iamsarvagyaa.github.io/android-security-part-one/" />
+<meta property="og:site_name" content="Sarvagya Sagar" />
+<meta property="og:image" content="https://iamsarvagyaa.github.io/images/android-security/hero-thumbnail.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-04-23T00:00:00+05:30" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://iamsarvagyaa.github.io/images/android-security/hero-thumbnail.png" />
+<meta property="twitter:title" content="Diving in Android Security" />
+<meta name="twitter:site" content="@iamsarvagyaa" />
+<meta name="twitter:creator" content="@iamsarvagyaa" />
+<meta name="google-site-verification" content="wB3aam-kuJmMCLol44dVHdg8nfUXgb7C-1s-LbqZeo4" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://iamsarvagyaa.github.io/images/myimage.jpg"},"name":"Sarvagya Sagar"},"author":{"@type":"Person","name":"Sarvagya Sagar"},"description":"Hello everyone, This is my first blog post. Many of my friends suggested me to get into Android Security. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article.","mainEntityOfPage":{"@type":"WebPage","@id":"https://iamsarvagyaa.github.io/android-security-part-one/"},"url":"https://iamsarvagyaa.github.io/android-security-part-one/","image":{"thumbnail":"/images/android-security/hero-thumbnail.png","url":"https://iamsarvagyaa.github.io/images/android-security/hero-thumbnail.png","@type":"imageObject"},"headline":"Diving in Android Security","dateModified":"2021-04-23T00:00:00+05:30","datePublished":"2021-04-23T00:00:00+05:30","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700,700i|Lora:400,400i,700,700i">
+  <link rel="alternate" type="application/atom+xml" title="Sarvagya Sagar" href="/atom.xml">
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="iamsarvagyaa" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. You can now buy a coffee :)" data-color="#79D6B5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+</head>
+
+
+  <body class="layout--post  diving-in-android-security">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+  <div class="navigation-wrapper">
+    <a href="#menu-toggle" id="menu-toggle">Menu</a>
+    <nav id="primary-nav" class="site-nav animated drop">
+      <ul>
+<li><a href="/posts/">Posts</a></li>
+<li><a href="/categories/">Categories</a></li>
+<li><a href="/search/">Search</a></li>
+<li><a href="/about/">About</a></li>
+</ul>
+    </nav>
+  </div><!-- /.navigation-wrapper -->
+
+
+    <header class="masthead">
+  <div class="wrap">
+    
+      <a href="/" class="site-logo" rel="home" title="Sarvagya Sagar">
+        <img src="/images/myimage.jpg" class="site-logo-img animated fadeInDown" alt="Sarvagya Sagar">
+      </a>
+    
+    
+    
+  </div>
+</header><!-- /.masthead -->
+
+
+    <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+  
+  
+  
+
+  <div class="page-image">
+    <img src="/images/android-security/hero-thumbnail.png" class="entry-feature-image u-photo" alt="Diving in Android Security">
+    
+  </div>
+
+
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+          <h1 id="page-title" class="page-title p-name">Diving in Android Security
+</h1>
+        
+      </header>
+
+      <div class="page-sidebar">
+        <div class="page-author h-card p-author">
+<img src="/images/myimage.jpg" class="author-avatar u-photo" alt="Sarvagya Sagar"><div class="author-info">
+<div class="author-name">
+        <em>by</em> <span class="p-name">Sarvagya Sagar</span>
+      </div>
+<ul class="author-links">
+<li class="author-link">
+            <a class="u-url" rel="me" href="https://twitter.com/iamsarvagyaa"><i class="fab fa-twitter-square fa-lg" title="Twitter"></i></a>
+          </li>
+<li class="author-link">
+            <a class="u-url" rel="me" href="https://github.com/iamsarvagyaa"><i class="fab fa-github-square fa-lg" title="Github"></i></a>
+          </li>
+<li class="author-link">
+            <a class="u-url" rel="me" href="https://linkedin/in/iamsarvagyaa"><i class="fab fa-linkedin fa-lg" title="LinkedIn"></i></a>
+          </li>
+</ul>
+
+<span class="read-time">6 min read</span>
+
+    <time class="page-date dt-published" datetime="2021-04-23T00:00:00+05:30"><a class="u-url" href="">April 23, 2021</a>
+</time>
+
+  </div>
+</div>
+
+        
+  <h3 class="page-taxonomies-title">Categories</h3>
+  
+  <ul class="page-taxonomies">
+<li class="page-taxonomy"><a class="p-category" href="/categories/#android-security" title="Pages filed under Android Security">Android Security</a></li>
+  </ul>
+
+
+        
+  <h3 class="page-taxonomies-title">Tags</h3>
+  
+  <ul class="page-taxonomies">
+<li class="page-taxonomy"><a href="/tags/#android" title="Pages tagged Android" rel="tag">Android</a></li>
+<li class="page-taxonomy"><a href="/tags/#beginner" title="Pages tagged Beginner" rel="tag">Beginner</a></li>
+<li class="page-taxonomy"><a href="/tags/#pentesting" title="Pages tagged Pentesting" rel="tag">Pentesting</a></li>
+  </ul>
+
+
+      </div>
+
+      <div class="page-content">
+        <div class="e-content">
+          <p>Hello everyone, This is my first blog post. Many of my friends suggested me to get into <em>Android Security</em>. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article.</p>
+
+<!--more-->
+
+<p class="notice--success"><img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> I will not show you how to install and set up an Android pentesting lab. Rather, I will tell you some good tools to help you with the pentesting Android application…</p>
+
+<p>There are no prerequisites to learn android pentesting, but if you know android development and have a good understanding of How the web and internet works, this will help you. By the way, I will try to explain more simply and easily. I hope you will learn something. 🙂 Basically, the android operating system is a <strong>Linux-based operating system</strong> platform, which Google developed. Nowadays, the android is a foundation of many devices like android phones, smartwatches, smart TVs, and many more things that work on the Android operating system. That’s why I’m saying android application security is in high demand because we all know that most companies are shifting their whole business to mobile applications. So, we have more chances to get paid in android-security. This small blog post will describe android fundamentals. First of all, I’m going to introduce the structure of this android series …</p>
+
+<ul>
+  <li>Android’s Architecture</li>
+  <li>Android components and android apk structure in detail.</li>
+  <li>How android applications are built and run.</li>
+  <li>Reading and Understanding of smali code.</li>
+  <li>Understanding AndroidManifest file in detail.</li>
+  <li>Tools Intro - Tools that will give you supernatural powers.</li>
+  <li>Information Gathering, Methodologies, and Workflows.</li>
+  <li>Static analysis vs. Dynamic analysis.</li>
+  <li>Reversing Android applications for fun and profit.</li>
+  <li>Walkthroughs of vulnerable android applications like <code class="language-plaintext highlighter-rouge">InjuredAndroid</code>, <code class="language-plaintext highlighter-rouge">DIVA</code>, <code class="language-plaintext highlighter-rouge">mstg-crackme</code>, etc.</li>
+</ul>
+
+<p>These are upcoming blog posts. Well, I don’t know much more about android application security. I planned this series to help others and for myself too. I will also write a detailed blog post about Automating your workflow in android pentesting. Now, I’m going to cover <em>Android’s architecture</em>.</p>
+
+<h2 id="androids-architecture">Android’s Architecture</h2>
+
+<p>Android app can be written in Java, Kotlin, and C++, but nowadays, there are many frameworks available to create android applications. One of the most popular frameworks is Flutter. Their lot of android applications are developed in a flutter. <strong>Android SDK</strong> compiles your source code and the manifest, data, and resources files into an archived android package with <code class="language-plaintext highlighter-rouge">.apk</code> extension. Android applications don’t have direct access to hardware resources, and each app lives in its own security sandbox. By default, each application has access to the components required to do its work. Android system implements the principle of least privileges. <em>This will create a very secure environment in which the app can’t communicate with other parts of the android system without permission</em>. We will learn more about permissions and application sandboxing features in the next blog post. Now, let’s understand the essential part, the architecture of the android application.</p>
+
+<p>The architecture of the Android stack consists of <em>pre-installed applications, native libraries, android Application Interface (API) frameworks, Android Runtime (ART), Hardware Abstraction Layer (HAL), and Linux kernel</em>. Now, understand one by one what are the uses and work of these layers.</p>
+
+<p><img src="/images/android-security/android-archit.jpg" alt="Android Architecture" class="align-center"></p>
+
+<p>Starting from the bottom layer, which is the <strong>Linux kernel</strong>. We can say the Linux kernel is the heart of the android operating system. If you’re from a UNIX background, you will know that the kernel provides drivers for hardware and core services like memory management, process management, and file system access. On top of the kernel is the <strong>Hardware Abstraction Layer</strong> which acts as an abstraction between the android’s physical hardware and its components. HAL consists of multiple library modules which implement an interface for a particular type of hardware component. When an API framework calls to access the hardware, the library module will load for the hardware component. For example, if an application wants to connect with the camera, it will allow an application to use a camera and sensor. Above HAL, there is native userspace which consists of <code class="language-plaintext highlighter-rouge">native libraries</code>, <code class="language-plaintext highlighter-rouge">native daemons</code> and <code class="language-plaintext highlighter-rouge">init binary</code>. Init binary is a process that starts other processes in Android. Native libraries are written in C/C++ core libraries and java libraries. These libraries get exposed to you through the API frameworks. Another side we have Android Runtime <img class="emoji" title=":heart:" alt=":heart:" src="https://github.githubassets.com/images/icons/emoji/unicode/2764.png" height="20" width="20"></p>
+
+<p><strong>Android Runtime:</strong> An alternative to the Dalvik Virtual Machine. After Android version 4.4, <code class="language-plaintext highlighter-rouge">Android Runtime (ART)</code> is introduced, which have major changes and features, and this change replaced the Dalvik VM. Specially, Android Runtime is written to run multiple machines by executing <code class="language-plaintext highlighter-rouge">DEX files</code>. After android version 4.4, each app runs into its own process and its own instance of the Android Runtime (ART). In the next upcoming post, we will learn in detail. Along with Android Runtime, there are also core java libraries that are important to run an application.</p>
+
+<p>The top and upper part of Android’s architecture is <strong>API frameworks and pre-installed applications</strong>. These APIs help you to reuse code of core modular system components. These API frameworks are written in java and consist of managers, content providers, view systems, etc. You can use these APIs to control what your app looks like and how it behaves. It provides a lot of classes and interfaces for android application development. At last, android comes with a pre-installed application such as calendar, Home, Contacts, etc.</p>
+
+<p>There lot of things to learn in the basics of the Android security model, and I will try to explain them in a detailed way. We’ll cover all the topics like the <em>permission model, privilege separation and sandboxing, Storage and database isolation, filesystem isolation, broadcast receivers, application booting process, application signing</em>, etc. Now, I’m going to tell you OWASP Mobile Top 10 in short because you’ll get an overview of the present at-risk attacks.</p>
+
+<ul>
+  <li>
+<strong>Improper Platform Usage:</strong> Attack covers misuse of platform features and improper platform security controls. Attack scenarios like leakage of Data via exploiting android intent, Sniffing of android intent, Poor web services authentication and configuration, etc.</li>
+  <li>
+<strong>Insecure Data Storage:</strong> This attack is marked on the second number, attack scenarios like accessing internal files/logs if a mobile device is stolen, exploiting unsecured data, compromised file systems like SQL databases, sd cards, cookies stores, etc.</li>
+  <li>
+<strong>Insecure Communication:</strong> Man in the Middle attack, Stealing information through insecure wifi-connection, and compromised radio-frequency related traffic can be marked as Insecure Communication.</li>
+  <li>
+<strong>Insecure Authentication:</strong> Typically, exploitation of authentication is automated through many tools or self-build tools. Scenarios like exploitation of Input form and hidden service requests are in this vulnerability.</li>
+  <li>
+<strong>Insufficient Cryptography:</strong> In most cases, developers use MD5, SHA1, RC2, MD4, etc., which causes stealing of user data easily, and also hackers can access insecure encrypted files.</li>
+  <li>
+<strong>Insecure Authorization:</strong> Unauthenticated access to admin endpoints and panel, IDORS, etc related scenarios can covers this attack.</li>
+  <li>
+<strong>Poor Code Quality:</strong> Exploitation of this attack is difficult; however, we can perform buffer overflow, client input bypassing, etc., like attacks.</li>
+  <li>
+<strong>Code Tampering:</strong> An attacker can exploit code modification via malicious input fields of the apps hosted in third-party app stores. Phishing, Spreading of malware are in this attack vector.</li>
+  <li>
+<strong>Reverse Engineering:</strong> Attackers can easily analyze the app’s internals and link with server processes. Bypassing of premium features, Code stealing, etc., related scenarios are in Reverse Engineering.</li>
+  <li>
+<strong>Extraneous Functionality:</strong> An attacker can download the app and can examine the log files, configuration files, can create logs to examine the errors, and can also pull stagging information. These scenarios are in Extraneous Functionality, and this is the last attack of OWASP Mobile.</li>
+</ul>
+
+<p>One of thing more, this will take time because I have less time to write a blog post. In the next post, we will learn about android components and the structure of android applications in detail. Thank you for reading this small blog post, and I hope you learned something from this <img class="emoji" title=":handshake:" alt=":handshake:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f91d.png" height="20" width="20"></p>
+
+<center><b>I'm on <a href="https://www.buymeacoffee.com/iamsarvagyaa" target="_blank">buymeacoffee</a>, you can join with me on buymeacoffee <img class="emoji" title=":smile:" alt=":smile:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png" height="20" width="20"></b></center>
+
+        </div>
+
+        
+          <div class="page-share">
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fiamsarvagyaa.github.io%2Fandroid-security-part-one%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--facebook btn--small"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i> <span>Share</span></a>
+  <a href="https://twitter.com/intent/tweet?text=Diving+in+Android+Security%20https%3A%2F%2Fiamsarvagyaa.github.io%2Fandroid-security-part-one%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--twitter btn--small"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> <span>Tweet</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fiamsarvagyaa.github.io%2Fandroid-security-part-one%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--linkedin btn--small"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> <span>LinkedIn</span></a>
+  <a href="https://reddit.com/submit?title=Diving+in+Android+Security&amp;url=https%3A%2F%2Fiamsarvagyaa.github.io%2Fandroid-security-part-one%2F" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" class="btn btn--reddit btn--small"><i class="fab fa-fw fa-reddit" aria-hidden="true"></i> <span>Reddit</span></a>
+</div>
+
+        
+
+        
+          
+
+        
+
+        <nav class="page-pagination" role="navigation">
+  
+
+  
+    <a class="page-next" href="/htb-writeups-list/">
+      <h4 class="page-pagination-label">Next</h4>
+      <span class="page-pagination-title">
+        List of HTB Machine Walkthroughs
+ <i class="fas fa-arrow-right"></i>
+      </span>
+    </a>
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+
+    <footer id="footer" class="site-footer">
+  <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+<div class="social-icons">
+<a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x" title="Feed"></i></a><a class="social-icon" href="https://twitter.com/iamsarvagyaa"><i class="fab fa-twitter-square fa-2x" title="Twitter"></i></a><a class="social-icon" href="https://instagram.com/iamsarvagyaa"><i class="fab fa-instagram fa-2x" title="Instagram"></i></a><a class="social-icon" href="https://github.com/iamsarvagyaa"><i class="fab fa-github-square fa-2x" title="Github"></i></a><a class="social-icon" href="https://linkedin.com/in/iamsarvagyaa"><i class="fab fa-linkedin fa-2x" title="LinkedIn"></i></a>
+</div>
+<div class="copyright">
+    
+      <p>© 2021 Sarvagya Sagar.
+     </p>
+    
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+  </body>
+
+</html>

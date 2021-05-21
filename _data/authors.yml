@@ -1,0 +1,18 @@
+# Sample Authors
+# Remove file or replace with your own
+
+Sarvagya Sagar:
+  name: Sarvagya Sagar
+  picture: /images/myimage.jpg
+  twitter: "@iamsarvagyaa"
+  links:
+    - title: Twitter
+      url: https://twitter.com/iamsarvagyaa
+      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.com/iamsarvagyaa
+      icon: fab fa-github-square
+    - title: LinkedIn
+      url: https://linkedin/in/iamsarvagyaa
+      icon: fab fa-linkedin
+

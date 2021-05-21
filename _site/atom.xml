@@ -1,0 +1,1729 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://iamsarvagyaa.github.io/atom.xml" rel="self" type="application/atom+xml" /><link href="https://iamsarvagyaa.github.io/" rel="alternate" type="text/html" /><updated>2021-05-02T21:36:04+05:30</updated><id>https://iamsarvagyaa.github.io/atom.xml</id><title type="html">Sarvagya Sagar</title><subtitle>Trekking on the path of Recon to Exploit stuff out there.</subtitle><author><name>Sarvagya Sagar</name><email>iamsarvagyaa@gmail.com</email></author><entry><title type="html">List of HTB Machine Walkthroughs</title><link href="https://iamsarvagyaa.github.io/htb-writeups-list/" rel="alternate" type="text/html" title="List of HTB Machine Walkthroughs" /><published>2021-05-02T00:00:00+05:30</published><updated>2021-05-02T00:00:00+05:30</updated><id>https://iamsarvagyaa.github.io/htb-writeups-list</id><content type="html" xml:base="https://iamsarvagyaa.github.io/htb-writeups-list/">&lt;p&gt;Hello to all of you! I hope you all are well in this pandemic. I started doing hackthebox machines; that’s why I created a list of hackthebox machine walkthroughs. I love to read/watch walkthroughs by 0xdf, ippsec, and xct. I will update this regularly. We all know that how much hackthebox machines are good, and we all want to read walkthroughs. :heart:&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;LE&lt;/strong&gt; means a Linux box, and the difficulty of this box is easy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LM&lt;/strong&gt; means a Linux box, and the difficulty of this box is medium.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LH&lt;/strong&gt; means a Linux box, and the difficulty of this box is hard.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;LI&lt;/strong&gt; means a Linux box, and the difficulty of this box is insane.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;WE&lt;/strong&gt; means a Windows box, and the difficulty of this box is easy.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;WM&lt;/strong&gt; means a Windows box, and the difficulty of this box is medium and so on&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lame--le&quot;&gt;Lame :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Lame&quot;&gt;https://app.hackthebox.eu/machines/Lame&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by thecybermentor - &lt;a href=&quot;https://youtu.be/ntBkyid_u8Y&quot;&gt;https://youtu.be/ntBkyid_u8Y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/07/htb-lame.html&quot;&gt;https://0xdf.gitlab.io/2020/04/07/htb-lame.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;One more way to solve Lame - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/08/htb-lame-more.html&quot;&gt;https://0xdf.gitlab.io/2020/04/08/htb-lame-more.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/lame-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/lame-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;legacy--we&quot;&gt;Legacy :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Legacy&quot;&gt;https://app.hackthebox.eu/machines/Legacy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by thecybermentor - &lt;a href=&quot;https://youtu.be/JZN3JhoAdWo&quot;&gt;https://youtu.be/JZN3JhoAdWo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/02/21/htb-legacy.html&quot;&gt;https://0xdf.gitlab.io/2019/02/21/htb-legacy.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/legacy-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/legacy-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;devel--we&quot;&gt;Devel :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Devel&quot;&gt;https://app.hackthebox.eu/machines/Devel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2LNyAbroZUk&quot;&gt;https://youtu.be/2LNyAbroZUk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/05/htb-devel.html&quot;&gt;https://0xdf.gitlab.io/2019/03/05/htb-devel.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/devel-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/devel-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;popcorn--lm&quot;&gt;Popcorn :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Popcorn&quot;&gt;https://app.hackthebox.eu/machines/Popcorn&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/NMGsnPSm8iw&quot;&gt;https://youtu.be/NMGsnPSm8iw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/23/htb-popcorn.html&quot;&gt;https://0xdf.gitlab.io/2020/06/23/htb-popcorn.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;beep--le&quot;&gt;Beep :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Beep&quot;&gt;https://app.hackthebox.eu/machines/Beep&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XJmBpOd__N8&quot;&gt;https://youtu.be/XJmBpOd__N8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/23/htb-beep.html&quot;&gt;https://0xdf.gitlab.io/2021/02/23/htb-beep.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/beep-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/beep-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;optimum--we&quot;&gt;Optimum :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Optimum&quot;&gt;https://app.hackthebox.eu/machines/Optimum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/kWTnVBIpNsE&quot;&gt;https://youtu.be/kWTnVBIpNsE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/17/htb-optimum.html&quot;&gt;https://0xdf.gitlab.io/2021/03/17/htb-optimum.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/optimum-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/optimum-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bastard--wm&quot;&gt;Bastard :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bastard&quot;&gt;https://app.hackthebox.eu/machines/Bastard&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/lP-E5vmZNC0&quot;&gt;https://youtu.be/lP-E5vmZNC0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/12/htb-bastard.html&quot;&gt;https://0xdf.gitlab.io/2019/03/12/htb-bastard.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/bastard-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/bastard-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tenten--lm&quot;&gt;Tenten :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Tenten&quot;&gt;https://app.hackthebox.eu/machines/Tenten&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/A4U3xiRWfsU&quot;&gt;https://youtu.be/A4U3xiRWfsU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/14/htb-tenten.html&quot;&gt;https://0xdf.gitlab.io/2020/07/14/htb-tenten.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;arctic--we&quot;&gt;Arctic :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Arctic&quot;&gt;https://app.hackthebox.eu/machines/Arctic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/e9lVyFH7-4o&quot;&gt;https://youtu.be/e9lVyFH7-4o&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/19/htb-arctic.html&quot;&gt;https://0xdf.gitlab.io/2020/05/19/htb-arctic.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/arctic-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/arctic-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cronos--lm&quot;&gt;Cronos :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Cronos&quot;&gt;https://app.hackthebox.eu/machines/Cronos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/CYeVUmOar3I&quot;&gt;https://youtu.be/CYeVUmOar3I&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/14/htb-cronos.html&quot;&gt;https://0xdf.gitlab.io/2020/04/14/htb-cronos.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/cronos-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/cronos-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;grandpa--we&quot;&gt;Grandpa :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Grandpa&quot;&gt;https://app.hackthebox.eu/machines/Grandpa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ZfPVGJGkORQ&quot;&gt;https://youtu.be/ZfPVGJGkORQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another pivoting updated video by ippsec - &lt;a href=&quot;https://youtu.be/HQkDL-xh7es&quot;&gt;https://youtu.be/HQkDL-xh7es&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/28/htb-grandpa.html&quot;&gt;https://0xdf.gitlab.io/2020/05/28/htb-grandpa.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/grandpa-writeup-w-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/grandpa-writeup-w-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;granny--we&quot;&gt;Granny :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Granny&quot;&gt;https://app.hackthebox.eu/machines/Granny&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ZfPVGJGkORQ&quot;&gt;https://youtu.be/ZfPVGJGkORQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/06/htb-granny.html&quot;&gt;https://0xdf.gitlab.io/2019/03/06/htb-granny.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/granny-writeup-w-o-and-w-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/granny-writeup-w-o-and-w-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;october--lm&quot;&gt;October :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/October&quot;&gt;https://app.hackthebox.eu/machines/October&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/K05mJazHhF4&quot;&gt;https://youtu.be/K05mJazHhF4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/26/htb-october.html&quot;&gt;https://0xdf.gitlab.io/2019/03/26/htb-october.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;brainfuck--li&quot;&gt;Brainfuck :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Brainfuck&quot;&gt;https://app.hackthebox.eu/machines/Brainfuck&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/o5x1yg3JnYI&quot;&gt;https://youtu.be/o5x1yg3JnYI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/brainfuck-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/brainfuck-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lazy--lm&quot;&gt;Lazy :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Lazy&quot;&gt;https://app.hackthebox.eu/machines/Lazy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/3VxZNflJqsw&quot;&gt;https://youtu.be/3VxZNflJqsw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/29/htb-lazy.html&quot;&gt;https://0xdf.gitlab.io/2020/07/29/htb-lazy.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sneaky--lm&quot;&gt;Sneaky :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sneaky&quot;&gt;https://app.hackthebox.eu/machines/Sneaky&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/1UGxjqTnuyo&quot;&gt;https://youtu.be/1UGxjqTnuyo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/02/htb-sneaky.html&quot;&gt;https://0xdf.gitlab.io/2021/03/02/htb-sneaky.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;joker--lh&quot;&gt;Joker :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Joker&quot;&gt;https://app.hackthebox.eu/machines/Joker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/5wyvpJa9LdU&quot;&gt;https://youtu.be/5wyvpJa9LdU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/13/htb-joker.html&quot;&gt;https://0xdf.gitlab.io/2020/08/13/htb-joker.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;haircut--lm&quot;&gt;Haircut :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Haircut&quot;&gt;https://app.hackthebox.eu/machines/Haircut&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/9ZXG1qb8lUI&quot;&gt;https://youtu.be/9ZXG1qb8lUI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/10/htb-haircut.html&quot;&gt;https://0xdf.gitlab.io/2020/09/10/htb-haircut.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;holiday--lh&quot;&gt;Holiday :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Holiday&quot;&gt;https://app.hackthebox.eu/machines/Holiday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/FvHyt7KrsPE&quot;&gt;https://youtu.be/FvHyt7KrsPE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/09/11/htb-holiday.html&quot;&gt;https://0xdf.gitlab.io/2019/09/11/htb-holiday.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bank--le&quot;&gt;Bank :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bank&quot;&gt;https://app.hackthebox.eu/machines/Bank&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/JRPWFSzFaG0&quot;&gt;https://youtu.be/JRPWFSzFaG0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/07/htb-bank.html&quot;&gt;https://0xdf.gitlab.io/2020/07/07/htb-bank.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;europa--lm&quot;&gt;Europa :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Europa&quot;&gt;https://app.hackthebox.eu/machines/Europa&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/OsxDB41jg6A&quot;&gt;https://youtu.be/OsxDB41jg6A&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/02/htb-europa.html&quot;&gt;https://0xdf.gitlab.io/2021/02/02/htb-europa.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;calamity--lh&quot;&gt;Calamity :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Calamity&quot;&gt;https://app.hackthebox.eu/machines/Calamity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/EloOaaGg3nA&quot;&gt;https://youtu.be/EloOaaGg3nA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/27/htb-calamity.html&quot;&gt;https://0xdf.gitlab.io/2020/08/27/htb-calamity.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;charon--lh&quot;&gt;Charon :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Charon&quot;&gt;https://app.hackthebox.eu/machines/Charon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_csbKuOlmdE&quot;&gt;https://youtu.be/_csbKuOlmdE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/16/htb-charon.html&quot;&gt;https://0xdf.gitlab.io/2021/02/16/htb-charon.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jail--li&quot;&gt;Jail :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Jail&quot;&gt;https://app.hackthebox.eu/machines/Jail&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/80-73OYcrrk&quot;&gt;https://youtu.be/80-73OYcrrk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/jail-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/jail-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blocky--le&quot;&gt;Blocky :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Blocky&quot;&gt;https://app.hackthebox.eu/machines/Blocky&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/C2O-rilXA6I&quot;&gt;https://youtu.be/C2O-rilXA6I&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/30/htb-blocky.html&quot;&gt;https://0xdf.gitlab.io/2020/06/30/htb-blocky.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blue--we&quot;&gt;Blue :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Blue&quot;&gt;https://app.hackthebox.eu/machines/Blue&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/YRsfX6DW10E&quot;&gt;https://youtu.be/YRsfX6DW10E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/blue-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/blue-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nineveh--lm&quot;&gt;Nineveh :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Nineveh&quot;&gt;https://app.hackthebox.eu/machines/Nineveh&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/K9DKULxSBK4&quot;&gt;https://youtu.be/K9DKULxSBK4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html&quot;&gt;https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/nineveh-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/nineveh-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;apocalyst--lm&quot;&gt;Apocalyst :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Apocalyst&quot;&gt;https://app.hackthebox.eu/machines/Apocalyst&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/TJVghYBByIA&quot;&gt;https://youtu.be/TJVghYBByIA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/09/htb-apocalyst.html&quot;&gt;https://0xdf.gitlab.io/2021/02/09/htb-apocalyst.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;shrek--lh&quot;&gt;Shrek :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Shrek&quot;&gt;https://app.hackthebox.eu/machines/Shrek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/tI592BjTd4o&quot;&gt;https://youtu.be/tI592BjTd4o&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/22/htb-shrek.html&quot;&gt;https://0xdf.gitlab.io/2020/07/22/htb-shrek.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mirai--le&quot;&gt;Mirai :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Mirai&quot;&gt;https://app.hackthebox.eu/machines/Mirai&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/SRmvRGUuuno&quot;&gt;https://youtu.be/SRmvRGUuuno&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;solidstate--lm&quot;&gt;SolidState :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/SolidState&quot;&gt;https://app.hackthebox.eu/machines/SolidState&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_QapCUx55Xk&quot;&gt;https://youtu.be/_QapCUx55Xk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/30/htb-solidstate.html&quot;&gt;https://0xdf.gitlab.io/2020/04/30/htb-solidstate.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/solidstate-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/solidstate-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mantis--wh&quot;&gt;Mantis :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Mantis&quot;&gt;https://app.hackthebox.eu/machines/Mantis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/VVZZgqIyD0Q&quot;&gt;https://youtu.be/VVZZgqIyD0Q&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/03/htb-mantis.html&quot;&gt;https://0xdf.gitlab.io/2020/09/03/htb-mantis.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;kotarak--lh&quot;&gt;Kotarak :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Kotarak&quot;&gt;https://app.hackthebox.eu/machines/Kotarak&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/38e-sxPWiuY&quot;&gt;https://youtu.be/38e-sxPWiuY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/kotarak-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/kotarak-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;shocker--le&quot;&gt;Shocker :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Shocker&quot;&gt;https://app.hackthebox.eu/machines/Shocker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/IBlTdguhgfY&quot;&gt;https://youtu.be/IBlTdguhgfY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/shocker-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/shocker-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;minion--wi&quot;&gt;Minion :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Minion&quot;&gt;https://app.hackthebox.eu/machines/Minion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/IbVmpr6IFQU&quot;&gt;https://youtu.be/IbVmpr6IFQU&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;node--lm&quot;&gt;Node :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Node&quot;&gt;https://app.hackthebox.eu/machines/Node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/sW10TlZF62w&quot;&gt;https://youtu.be/sW10TlZF62w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/node-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/node-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sense--oe&quot;&gt;Sense :: OE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sense&quot;&gt;https://app.hackthebox.eu/machines/Sense&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/d2nVDoVr0jE&quot;&gt;https://youtu.be/d2nVDoVr0jE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/11/htb-sense.html&quot;&gt;https://0xdf.gitlab.io/2021/03/11/htb-sense.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/sense-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/sense-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;enterprise--lm&quot;&gt;Enterprise :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Enterprise&quot;&gt;https://app.hackthebox.eu/machines/Enterprise&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/NWVJ2b0D1r8&quot;&gt;https://youtu.be/NWVJ2b0D1r8&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tally--wh&quot;&gt;Tally :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Tally&quot;&gt;https://app.hackthebox.eu/machines/Tally&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/l-wzBhc9wFc&quot;&gt;https://youtu.be/l-wzBhc9wFc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/tally-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/tally-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jeeves--wm&quot;&gt;Jeeves :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Jeeves&quot;&gt;https://app.hackthebox.eu/machines/Jeeves&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/EKGBskG8APc&quot;&gt;https://youtu.be/EKGBskG8APc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/jeeves-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/jeeves-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ariekei--li&quot;&gt;Ariekei :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Ariekei&quot;&gt;https://app.hackthebox.eu/machines/Ariekei&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Pc4tzsn-ats&quot;&gt;https://youtu.be/Pc4tzsn-ats&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fulcrum--li&quot;&gt;Fulcrum :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Fulcrum&quot;&gt;https://app.hackthebox.eu/machines/Fulcrum&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/46RJxJ-Fm0Y&quot;&gt;https://youtu.be/46RJxJ-Fm0Y&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inception--lm&quot;&gt;Inception :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Inception&quot;&gt;https://app.hackthebox.eu/machines/Inception&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/J2I-5xPgyXk&quot;&gt;https://youtu.be/J2I-5xPgyXk&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bashed--le&quot;&gt;Bashed :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bashed&quot;&gt;https://app.hackthebox.eu/machines/Bashed&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2DqdPcbYcy8&quot;&gt;https://youtu.be/2DqdPcbYcy8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/04/29/htb-bashed.html&quot;&gt;https://0xdf.gitlab.io/2018/04/29/htb-bashed.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/bashed-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/bashed-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fluxcapacitor--lm&quot;&gt;FluxCapacitor :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/FluxCapacitor&quot;&gt;https://app.hackthebox.eu/machines/FluxCapacitor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XLIBbkQJKuY&quot;&gt;https://youtu.be/XLIBbkQJKuY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/05/12/htb-fluxcapacitor.html&quot;&gt;https://0xdf.gitlab.io/2018/05/12/htb-fluxcapacitor.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crimestoppers--lh&quot;&gt;CrimeStoppers :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/CrimeStoppers&quot;&gt;https://app.hackthebox.eu/machines/CrimeStoppers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/bgKth1K44QA&quot;&gt;https://youtu.be/bgKth1K44QA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/06/03/htb-crimestoppers.html&quot;&gt;https://0xdf.gitlab.io/2018/06/03/htb-crimestoppers.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nibbles--le&quot;&gt;Nibbles :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Nibbles&quot;&gt;https://app.hackthebox.eu/machines/Nibbles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/s_0GcRGv6Ds&quot;&gt;https://youtu.be/s_0GcRGv6Ds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/06/30/htb-nibbles.html&quot;&gt;https://0xdf.gitlab.io/2018/06/30/htb-nibbles.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/nibbles-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/nibbles-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nightmare--li&quot;&gt;Nightmare :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Nightmare&quot;&gt;https://app.hackthebox.eu/machines/Nightmare&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/frh-jYaUvrU&quot;&gt;https://youtu.be/frh-jYaUvrU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/TVhtjiSedjU&quot;&gt;https://youtu.be/TVhtjiSedjU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/07/07/second-order-sql-injection-on-htb-nightmare.html&quot;&gt;https://0xdf.gitlab.io/2018/07/07/second-order-sql-injection-on-htb-nightmare.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chatterbox--wm&quot;&gt;Chatterbox :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Chatterbox&quot;&gt;https://app.hackthebox.eu/machines/Chatterbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_dRrvJNdP-s&quot;&gt;https://youtu.be/_dRrvJNdP-s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/06/18/htb-chatterbox.html&quot;&gt;https://0xdf.gitlab.io/2018/06/18/htb-chatterbox.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/chatterbox-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/chatterbox-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;falafel--lh&quot;&gt;Falafel :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Falafel&quot;&gt;https://app.hackthebox.eu/machines/Falafel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/CUbWpteTfio&quot;&gt;https://youtu.be/CUbWpteTfio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/06/23/htb-falafel.html&quot;&gt;https://0xdf.gitlab.io/2018/06/23/htb-falafel.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/falafel-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/falafel-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;aragog--lm&quot;&gt;Aragog :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Aragog&quot;&gt;https://app.hackthebox.eu/machines/Aragog&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/NFdi-2tgvxY&quot;&gt;https://youtu.be/NFdi-2tgvxY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/07/21/htb-aragog.html&quot;&gt;https://0xdf.gitlab.io/2018/07/21/htb-aragog.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;valentine--le&quot;&gt;Valentine :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Valentine&quot;&gt;https://app.hackthebox.eu/machines/Valentine&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XYXNvemgJUo&quot;&gt;https://youtu.be/XYXNvemgJUo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/07/28/htb-valentine.html&quot;&gt;https://0xdf.gitlab.io/2018/07/28/htb-valentine.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/valentine-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/valentine-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bart--wm&quot;&gt;Bart :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bart&quot;&gt;https://app.hackthebox.eu/machines/Bart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Cz6vQvGGiuc&quot;&gt;https://youtu.be/Cz6vQvGGiuc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/07/15/htb-bart.html&quot;&gt;https://0xdf.gitlab.io/2018/07/15/htb-bart.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/bart-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/bart-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;stratosphere--lm&quot;&gt;Stratosphere :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Stratosphere&quot;&gt;https://app.hackthebox.eu/machines/Stratosphere&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/uMwcJQcUnmY&quot;&gt;https://youtu.be/uMwcJQcUnmY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/09/01/htb-stratosphere.html&quot;&gt;https://0xdf.gitlab.io/2018/09/01/htb-stratosphere.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;celestial--lm&quot;&gt;Celestial :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Celestial&quot;&gt;https://app.hackthebox.eu/machines/Celestial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/aS6z4NgRysU&quot;&gt;https://youtu.be/aS6z4NgRysU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/08/25/htb-celestial.html&quot;&gt;https://0xdf.gitlab.io/2018/08/25/htb-celestial.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;silo--wm&quot;&gt;Silo :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Silo&quot;&gt;https://app.hackthebox.eu/machines/Silo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2c7SzNo9uoA&quot;&gt;https://youtu.be/2c7SzNo9uoA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/08/04/htb-silo.html&quot;&gt;https://0xdf.gitlab.io/2018/08/04/htb-silo.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/silo-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/silo-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;poison--om&quot;&gt;Poison :: OM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Poison&quot;&gt;https://app.hackthebox.eu/machines/Poison&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/rs4zEwONzzk&quot;&gt;https://youtu.be/rs4zEwONzzk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/09/08/htb-poison.html&quot;&gt;https://0xdf.gitlab.io/2018/09/08/htb-poison.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/poison-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/poison-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rabbit--wi&quot;&gt;Rabbit :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Rabbit&quot;&gt;https://app.hackthebox.eu/machines/Rabbit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/5nnJq_IWJog&quot;&gt;https://youtu.be/5nnJq_IWJog&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;canape--lm&quot;&gt;Canape :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Canape&quot;&gt;https://app.hackthebox.eu/machines/Canape&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/rs75y2qPonc&quot;&gt;https://youtu.be/rs75y2qPonc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/09/15/htb-canape.html&quot;&gt;https://0xdf.gitlab.io/2018/09/15/htb-canape.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;olympus--lm&quot;&gt;Olympus :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Olympus&quot;&gt;https://app.hackthebox.eu/machines/Olympus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/7ifJOon5-G8&quot;&gt;https://youtu.be/7ifJOon5-G8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/09/22/htb-olympus.html&quot;&gt;https://0xdf.gitlab.io/2018/09/22/htb-olympus.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sunday--oe&quot;&gt;Sunday :: OE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sunday&quot;&gt;https://app.hackthebox.eu/machines/Sunday&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/xUrq29OTSuM&quot;&gt;https://youtu.be/xUrq29OTSuM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/09/29/htb-sunday.html&quot;&gt;https://0xdf.gitlab.io/2018/09/29/htb-sunday.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/sunday-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/sunday-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fighter--wi&quot;&gt;Fighter :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Fighter&quot;&gt;https://app.hackthebox.eu/machines/Fighter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/CW4mI5BkP9E&quot;&gt;https://youtu.be/CW4mI5BkP9E&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tartarsauce--lm&quot;&gt;TartarSauce :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/TartarSauce&quot;&gt;https://app.hackthebox.eu/machines/TartarSauce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/9MeBiP637ZA&quot;&gt;https://youtu.be/9MeBiP637ZA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/10/20/htb-tartarsauce.html&quot;&gt;https://0xdf.gitlab.io/2018/10/20/htb-tartarsauce.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/10/21/htb-tartarsauce-part-2-backuperer-follow-up.html&quot;&gt;https://0xdf.gitlab.io/2018/10/21/htb-tartarsauce-part-2-backuperer-follow-up.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/tartarsauce-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/tartarsauce-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dropzone--wh&quot;&gt;Dropzone :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Dropzone&quot;&gt;https://app.hackthebox.eu/machines/Dropzone&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/QzP5nUEhZeg&quot;&gt;https://youtu.be/QzP5nUEhZeg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/03/htb-dropzone.html&quot;&gt;https://0xdf.gitlab.io/2018/11/03/htb-dropzone.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;devoops--lm&quot;&gt;DevOops :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/DevOops&quot;&gt;https://app.hackthebox.eu/machines/DevOops&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/tQ34Ntkr7H4&quot;&gt;https://youtu.be/tQ34Ntkr7H4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/10/13/htb-devoops.html&quot;&gt;https://0xdf.gitlab.io/2018/10/13/htb-devoops.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/devoops-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/devoops-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;smasher--li&quot;&gt;Smasher :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Smasher&quot;&gt;https://app.hackthebox.eu/machines/Smasher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/24/htb-smasher.html&quot;&gt;https://0xdf.gitlab.io/2018/11/24/htb-smasher.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Buffer overflow in smasher by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/24/htb-smasher-bof.html&quot;&gt;https://0xdf.gitlab.io/2018/11/24/htb-smasher-bof.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bounty--we&quot;&gt;Bounty :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bounty&quot;&gt;https://app.hackthebox.eu/machines/Bounty&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/7ur4om1K98Y&quot;&gt;https://youtu.be/7ur4om1K98Y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/10/27/htb-bounty.html&quot;&gt;https://0xdf.gitlab.io/2018/10/27/htb-bounty.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/bounty-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/bounty-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reel--wh&quot;&gt;Reel :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Reel&quot;&gt;https://app.hackthebox.eu/machines/Reel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ob9SgtFm6_g&quot;&gt;https://youtu.be/ob9SgtFm6_g&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/10/htb-reel.html&quot;&gt;https://0xdf.gitlab.io/2018/11/10/htb-reel.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jerry--we&quot;&gt;Jerry :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Jerry&quot;&gt;https://app.hackthebox.eu/machines/Jerry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/PJeBIey8gc4&quot;&gt;https://youtu.be/PJeBIey8gc4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/17/htb-jerry.html&quot;&gt;https://0xdf.gitlab.io/2018/11/17/htb-jerry.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/jerry&quot;&gt;https://0xrick.github.io/hack-the-box/jerry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/jerry-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/jerry-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mischief--li&quot;&gt;Mischief :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Mischief&quot;&gt;https://app.hackthebox.eu/machines/Mischief&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/GKo6xoB1g4Q&quot;&gt;https://youtu.be/GKo6xoB1g4Q&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/01/05/htb-mischief.html&quot;&gt;https://0xdf.gitlab.io/2019/01/05/htb-mischief.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another related walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/01/08/htb-mischief-more-root.html&quot;&gt;https://0xdf.gitlab.io/2019/01/08/htb-mischief-more-root.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hawk--lm&quot;&gt;Hawk :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Hawk&quot;&gt;https://app.hackthebox.eu/machines/Hawk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/UGd9JE1ZXUI&quot;&gt;https://youtu.be/UGd9JE1ZXUI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/11/30/htb-hawk.html&quot;&gt;https://0xdf.gitlab.io/2018/11/30/htb-hawk.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/hawk/&quot;&gt;https://0xrick.github.io/hack-the-box/hawk/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/hawk-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/hawk-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reddish--li&quot;&gt;Reddish :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Reddish&quot;&gt;https://app.hackthebox.eu/machines/Reddish&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Yp4oxoQIBAM&quot;&gt;https://youtu.be/Yp4oxoQIBAM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/01/26/htb-reddish.html&quot;&gt;https://0xdf.gitlab.io/2019/01/26/htb-reddish.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;active--we&quot;&gt;Active :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Active&quot;&gt;https://app.hackthebox.eu/machines/Active&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/jUc1J31DNdw&quot;&gt;https://youtu.be/jUc1J31DNdw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/12/08/htb-active.html&quot;&gt;https://0xdf.gitlab.io/2018/12/08/htb-active.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/active/&quot;&gt;https://0xrick.github.io/hack-the-box/active/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/active-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/active-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;waldo--lm&quot;&gt;Waldo :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Waldo&quot;&gt;https://app.hackthebox.eu/machines/Waldo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/1klneIHECqY&quot;&gt;https://youtu.be/1klneIHECqY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2018/12/15/htb-waldo.html&quot;&gt;https://0xdf.gitlab.io/2018/12/15/htb-waldo.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/waldo/&quot;&gt;https://0xrick.github.io/hack-the-box/waldo/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dab--lh&quot;&gt;Dab :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Dab&quot;&gt;https://app.hackthebox.eu/machines/Dab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/JvqBaZ0WnV4&quot;&gt;https://youtu.be/JvqBaZ0WnV4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/02/02/htb-dab.html&quot;&gt;https://0xdf.gitlab.io/2019/02/02/htb-dab.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/dab/&quot;&gt;https://0xrick.github.io/hack-the-box/dab/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;secnotes--wm&quot;&gt;SecNotes :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/SecNotes&quot;&gt;https://app.hackthebox.eu/machines/SecNotes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/PJXb2pK8K84&quot;&gt;https://youtu.be/PJXb2pK8K84&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/01/19/htb-secnotes.html&quot;&gt;https://0xdf.gitlab.io/2019/01/19/htb-secnotes.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/secnotes/&quot;&gt;https://0xrick.github.io/hack-the-box/secnotes/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;oz--lh&quot;&gt;Oz :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Oz&quot;&gt;https://app.hackthebox.eu/machines/Oz&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/yX00n1UmalE&quot;&gt;https://youtu.be/yX00n1UmalE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/01/12/htb-oz.html&quot;&gt;https://0xdf.gitlab.io/2019/01/12/htb-oz.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/oz/&quot;&gt;https://0xrick.github.io/hack-the-box/oz/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;giddy--wm&quot;&gt;Giddy :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Giddy&quot;&gt;https://app.hackthebox.eu/machines/Giddy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/J2unwbMQvUo&quot;&gt;https://youtu.be/J2unwbMQvUo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/02/16/htb-giddy.html&quot;&gt;https://0xdf.gitlab.io/2019/02/16/htb-giddy.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/giddy/&quot;&gt;https://0xrick.github.io/hack-the-box/giddy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ypuffy--om&quot;&gt;Ypuffy :: OM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Ypuffy&quot;&gt;https://app.hackthebox.eu/machines/Ypuffy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/UoB-J-eDvrg&quot;&gt;https://youtu.be/UoB-J-eDvrg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/02/09/htb-ypuffy.html&quot;&gt;https://0xdf.gitlab.io/2019/02/09/htb-ypuffy.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ypuffy/&quot;&gt;https://0xrick.github.io/hack-the-box/ypuffy/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;carrier--lm&quot;&gt;Carrier :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Carrier&quot;&gt;https://app.hackthebox.eu/machines/Carrier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2ZxRA8BgmnA&quot;&gt;https://youtu.be/2ZxRA8BgmnA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/16/htb-carrier.html&quot;&gt;https://0xdf.gitlab.io/2019/03/16/htb-carrier.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/carrier/&quot;&gt;https://0xrick.github.io/hack-the-box/carrier/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;access--we&quot;&gt;Access :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Access&quot;&gt;https://app.hackthebox.eu/machines/Access&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Rr6Oxrj2IjU&quot;&gt;https://youtu.be/Rr6Oxrj2IjU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/02/htb-access.html&quot;&gt;https://0xdf.gitlab.io/2019/03/02/htb-access.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/access/&quot;&gt;https://0xrick.github.io/hack-the-box/access/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ethereal--wi&quot;&gt;Ethereal :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Ethereal&quot;&gt;https://app.hackthebox.eu/machines/Ethereal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Bhh5yPHjwUY&quot;&gt;https://youtu.be/Bhh5yPHjwUY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/09/htb-ethereal.html&quot;&gt;https://0xdf.gitlab.io/2019/03/09/htb-ethereal.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another related walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/15/htb-ethereal-cor.html&quot;&gt;https://0xdf.gitlab.io/2019/03/15/htb-ethereal-cor.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Attacking password box in ethereal by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/09/htb-ethereal-pbox.html&quot;&gt;https://0xdf.gitlab.io/2019/03/09/htb-ethereal-pbox.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Ethereal shell development by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/09/htb-ethereal-shell.html&quot;&gt;https://0xdf.gitlab.io/2019/03/09/htb-ethereal-shell.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ethereal/&quot;&gt;https://0xrick.github.io/hack-the-box/ethereal/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;frolic--le&quot;&gt;Frolic :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Frolic&quot;&gt;https://app.hackthebox.eu/machines/Frolic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/b6WGQSJu_zQ&quot;&gt;https://youtu.be/b6WGQSJu_zQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/23/htb-frolic.html&quot;&gt;https://0xdf.gitlab.io/2019/03/23/htb-frolic.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/frolic/&quot;&gt;https://0xrick.github.io/hack-the-box/frolic/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;zipper--lh&quot;&gt;Zipper :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Zipper&quot;&gt;https://app.hackthebox.eu/machines/Zipper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/RLvFwiDK_F8&quot;&gt;https://youtu.be/RLvFwiDK_F8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/02/23/htb-zipper.html&quot;&gt;https://0xdf.gitlab.io/2019/02/23/htb-zipper.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/zipper/&quot;&gt;https://0xrick.github.io/hack-the-box/zipper/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;curling--le&quot;&gt;Curling :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Curling&quot;&gt;https://app.hackthebox.eu/machines/Curling&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Paajc2Dupms&quot;&gt;https://youtu.be/Paajc2Dupms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/03/30/htb-curling.html&quot;&gt;https://0xdf.gitlab.io/2019/03/30/htb-curling.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/curling/&quot;&gt;https://0xrick.github.io/hack-the-box/curling/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vault--lm&quot;&gt;Vault :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Vault&quot;&gt;https://app.hackthebox.eu/machines/Vault&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/LfbwlPxToBc&quot;&gt;https://youtu.be/LfbwlPxToBc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/04/06/htb-vault.html&quot;&gt;https://0xdf.gitlab.io/2019/04/06/htb-vault.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/vault/&quot;&gt;https://0xrick.github.io/hack-the-box/vault/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;redcross--lm&quot;&gt;RedCross :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/RedCross&quot;&gt;https://app.hackthebox.eu/machines/RedCross&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/-GNyDEQ9UDU&quot;&gt;https://youtu.be/-GNyDEQ9UDU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/04/13/htb-redcross.html&quot;&gt;https://0xdf.gitlab.io/2019/04/13/htb-redcross.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/redcross/&quot;&gt;https://0xrick.github.io/hack-the-box/redcross/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;irked--le&quot;&gt;Irked :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Irked&quot;&gt;https://app.hackthebox.eu/machines/Irked&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/OGFTM_qvtVI&quot;&gt;https://youtu.be/OGFTM_qvtVI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/04/27/htb-irked.html&quot;&gt;https://0xdf.gitlab.io/2019/04/27/htb-irked.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/irked/&quot;&gt;https://0xrick.github.io/hack-the-box/irked/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/irked-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/irked-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bighead--wi&quot;&gt;BigHead :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/BigHead&quot;&gt;https://app.hackthebox.eu/machines/BigHead&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/VBt-CmjMYiM&quot;&gt;https://youtu.be/VBt-CmjMYiM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/05/04/htb-bighead.html&quot;&gt;https://0xdf.gitlab.io/2019/05/04/htb-bighead.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/05/04/htb-bighead-bof.html&quot;&gt;https://0xdf.gitlab.io/2019/05/04/htb-bighead-bof.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/bighead/&quot;&gt;https://0xrick.github.io/hack-the-box/bighead/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;teacher--le&quot;&gt;Teacher :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Teacher&quot;&gt;https://app.hackthebox.eu/machines/Teacher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/u2-te8n2WbY&quot;&gt;https://youtu.be/u2-te8n2WbY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/04/20/htb-teacher.html&quot;&gt;https://0xdf.gitlab.io/2019/04/20/htb-teacher.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/teacher/&quot;&gt;https://0xrick.github.io/hack-the-box/teacher/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lightweight--lm&quot;&gt;Lightweight :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Lightweight&quot;&gt;https://app.hackthebox.eu/machines/Lightweight&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/yQgtDoCDAYk&quot;&gt;https://youtu.be/yQgtDoCDAYk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/05/11/htb-lightweight.html&quot;&gt;https://0xdf.gitlab.io/2019/05/11/htb-lightweight.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/lightweight/&quot;&gt;https://0xrick.github.io/hack-the-box/lightweight/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/lightweight-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/lightweight-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chaos--lm&quot;&gt;Chaos :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Chaos&quot;&gt;https://app.hackthebox.eu/machines/Chaos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/no9UnySBQrU&quot;&gt;https://youtu.be/no9UnySBQrU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/05/25/htb-chaos.html&quot;&gt;https://0xdf.gitlab.io/2019/05/25/htb-chaos.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/chaos/&quot;&gt;https://0xrick.github.io/hack-the-box/chaos/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conceal--wh&quot;&gt;Conceal :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Conceal&quot;&gt;https://app.hackthebox.eu/machines/Conceal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/1ae64CdwLHE&quot;&gt;https://youtu.be/1ae64CdwLHE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/05/18/htb-conceal.html&quot;&gt;https://0xdf.gitlab.io/2019/05/18/htb-conceal.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/conceal/&quot;&gt;https://0xrick.github.io/hack-the-box/conceal/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/conceal-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/conceal-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sizzle--wi&quot;&gt;Sizzle :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sizzle&quot;&gt;https://app.hackthebox.eu/machines/Sizzle&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/YVhlfUvsqYc&quot;&gt;https://youtu.be/YVhlfUvsqYc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/06/01/htb-sizzle.html&quot;&gt;https://0xdf.gitlab.io/2019/06/01/htb-sizzle.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/sizzle/&quot;&gt;https://0xrick.github.io/hack-the-box/sizzle/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;help--le&quot;&gt;Help :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Help&quot;&gt;https://app.hackthebox.eu/machines/Help&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XB8CbhfOczU&quot;&gt;https://youtu.be/XB8CbhfOczU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/06/08/htb-help.html&quot;&gt;https://0xdf.gitlab.io/2019/06/08/htb-help.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/help/&quot;&gt;https://0xrick.github.io/hack-the-box/help/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;flujab--lh&quot;&gt;FluJab :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/FluJab&quot;&gt;https://app.hackthebox.eu/machines/FluJab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_f9Xygr-qHU&quot;&gt;https://youtu.be/_f9Xygr-qHU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/06/15/htb-flujab.html&quot;&gt;https://0xdf.gitlab.io/2019/06/15/htb-flujab.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/flujab/&quot;&gt;https://0xrick.github.io/hack-the-box/flujab/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ctf--li&quot;&gt;CTF :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/CTF&quot;&gt;https://app.hackthebox.eu/machines/CTF&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/51JQg202csw&quot;&gt;https://youtu.be/51JQg202csw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/07/20/htb-ctf.html&quot;&gt;https://0xdf.gitlab.io/2019/07/20/htb-ctf.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ctf/&quot;&gt;https://0xrick.github.io/hack-the-box/ctf/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;friendzone--le&quot;&gt;FriendZone :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/FriendZone&quot;&gt;https://app.hackthebox.eu/machines/FriendZone&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Zf8p49IzEEA&quot;&gt;https://youtu.be/Zf8p49IzEEA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/07/13/htb-friendzone.html&quot;&gt;https://0xdf.gitlab.io/2019/07/13/htb-friendzone.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/friendzone/&quot;&gt;https://0xrick.github.io/hack-the-box/friendzone/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/friendzone-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/friendzone-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;querier--wm&quot;&gt;Querier :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Querier&quot;&gt;https://app.hackthebox.eu/machines/Querier&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/d7ACjty4m7U&quot;&gt;https://youtu.be/d7ACjty4m7U&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/06/22/htb-querier.html&quot;&gt;https://0xdf.gitlab.io/2019/06/22/htb-querier.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/querier/&quot;&gt;https://0xrick.github.io/hack-the-box/querier/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/querier-2/&quot;&gt;https://0xrick.github.io/hack-the-box/querier-2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;hackback--wi&quot;&gt;Hackback :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Hackback&quot;&gt;https://app.hackthebox.eu/machines/Hackback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/B9nozi1PrhY&quot;&gt;https://youtu.be/B9nozi1PrhY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/07/06/htb-hackback.html&quot;&gt;https://0xdf.gitlab.io/2019/07/06/htb-hackback.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/hackback/&quot;&gt;https://0xrick.github.io/hack-the-box/hackback/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;netmon--we&quot;&gt;Netmon :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Netmon&quot;&gt;https://app.hackthebox.eu/machines/Netmon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ZxvgniJXbOo&quot;&gt;https://youtu.be/ZxvgniJXbOo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/06/29/htb-netmon.html&quot;&gt;https://0xdf.gitlab.io/2019/06/29/htb-netmon.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/netmon/&quot;&gt;https://0xrick.github.io/hack-the-box/netmon/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/netmon-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/netmon-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fortune--oi&quot;&gt;Fortune :: OI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Fortune&quot;&gt;https://app.hackthebox.eu/machines/Fortune&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_BLd046r-co&quot;&gt;https://youtu.be/_BLd046r-co&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/03/htb-fortune.html&quot;&gt;https://0xdf.gitlab.io/2019/08/03/htb-fortune.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/fortune&quot;&gt;https://0xrick.github.io/hack-the-box/fortune&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;arkham--wm&quot;&gt;Arkham :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Arkham&quot;&gt;https://app.hackthebox.eu/machines/Arkham&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/krC5j1Ab44I&quot;&gt;https://youtu.be/krC5j1Ab44I&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/10/htb-arkham.html&quot;&gt;https://0xdf.gitlab.io/2019/08/10/htb-arkham.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/arkham/&quot;&gt;https://0xrick.github.io/hack-the-box/arkham/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;helpline--wh&quot;&gt;Helpline :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Helpline&quot;&gt;https://app.hackthebox.eu/machines/Helpline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Vs3oSDlzxwA&quot;&gt;https://youtu.be/Vs3oSDlzxwA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/17/htb-helpline.html&quot;&gt;https://0xdf.gitlab.io/2019/08/17/htb-helpline.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/helpline/&quot;&gt;https://0xrick.github.io/hack-the-box/helpline/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lacasadepapel--le&quot;&gt;LaCasaDePapel :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/LaCasaDePapel&quot;&gt;https://app.hackthebox.eu/machines/LaCasaDePapel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/OSRCEOQQJ4E&quot;&gt;https://youtu.be/OSRCEOQQJ4E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/lacasadepapel/&quot;&gt;https://0xrick.github.io/hack-the-box/lacasadepapel/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/07/27/htb-lacasadepapel.html&quot;&gt;https://0xdf.gitlab.io/2019/07/27/htb-lacasadepapel.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another related writeup by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/02/bypassing-php-disable_functions-with-chankro.html&quot;&gt;https://0xdf.gitlab.io/2019/08/02/bypassing-php-disable_functions-with-chankro.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/lacasadepapel-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/lacasadepapel-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;kryptos--li&quot;&gt;Kryptos :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Kryptos&quot;&gt;https://app.hackthebox.eu/machines/Kryptos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/4uCoI5YzOwk&quot;&gt;https://youtu.be/4uCoI5YzOwk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/09/21/htb-kryptos.html&quot;&gt;https://0xdf.gitlab.io/2019/09/21/htb-kryptos.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/kryptos/&quot;&gt;https://0xrick.github.io/hack-the-box/kryptos/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unattended--lm&quot;&gt;Unattended :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Unattended&quot;&gt;https://app.hackthebox.eu/machines/Unattended&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2SATzCQY0Zw&quot;&gt;https://youtu.be/2SATzCQY0Zw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/24/htb-unattended.html&quot;&gt;https://0xdf.gitlab.io/2019/08/24/htb-unattended.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/unattended/&quot;&gt;https://0xrick.github.io/hack-the-box/unattended/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;onetwoseven--lh&quot;&gt;OneTwoSeven :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/OneTwoSeven&quot;&gt;https://app.hackthebox.eu/machines/OneTwoSeven&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/EXuEDHFjS9E&quot;&gt;https://youtu.be/EXuEDHFjS9E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/08/31/htb-onetwoseven.html&quot;&gt;https://0xdf.gitlab.io/2019/08/31/htb-onetwoseven.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/onetwoseven/&quot;&gt;https://0xrick.github.io/hack-the-box/onetwoseven/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bastion--we&quot;&gt;Bastion :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bastion&quot;&gt;https://app.hackthebox.eu/machines/Bastion&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2j3FNp5pjQ4&quot;&gt;https://youtu.be/2j3FNp5pjQ4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/09/07/htb-bastion.html&quot;&gt;https://0xdf.gitlab.io/2019/09/07/htb-bastion.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/bastion/&quot;&gt;https://0xrick.github.io/hack-the-box/bastion/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/bastion-2/&quot;&gt;https://0xrick.github.io/hack-the-box/bastion-2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ghoul--lh&quot;&gt;Ghoul :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Ghoul&quot;&gt;https://app.hackthebox.eu/machines/Ghoul&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/kE36IGAU5rg&quot;&gt;https://youtu.be/kE36IGAU5rg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/10/05/htb-ghoul.html&quot;&gt;https://0xdf.gitlab.io/2019/10/05/htb-ghoul.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ghoul&quot;&gt;https://0xrick.github.io/hack-the-box/ghoul&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;swagshop--le&quot;&gt;SwagShop :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/SwagShop&quot;&gt;https://app.hackthebox.eu/machines/SwagShop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/qECG2_8xw_s&quot;&gt;https://youtu.be/qECG2_8xw_s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/09/28/htb-swagshop.html&quot;&gt;https://0xdf.gitlab.io/2019/09/28/htb-swagshop.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/swagshop/&quot;&gt;https://0xrick.github.io/hack-the-box/swagshop/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/swagshop-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/swagshop-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ellingson--lh&quot;&gt;Ellingson :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Ellingson&quot;&gt;https://app.hackthebox.eu/machines/Ellingson&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XVYgBetSvS8&quot;&gt;https://youtu.be/XVYgBetSvS8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/10/19/htb-ellingson.html&quot;&gt;https://0xdf.gitlab.io/2019/10/19/htb-ellingson.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ellingson/&quot;&gt;https://0xrick.github.io/hack-the-box/ellingson/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;luke--om&quot;&gt;Luke :: OM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Luke&quot;&gt;https://app.hackthebox.eu/machines/Luke&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/gaBdfD4BGBo&quot;&gt;https://youtu.be/gaBdfD4BGBo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/09/14/htb-luke.html&quot;&gt;https://0xdf.gitlab.io/2019/09/14/htb-luke.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/luke/&quot;&gt;https://0xrick.github.io/hack-the-box/luke/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;smasher2--li&quot;&gt;Smasher2 :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Smasher2&quot;&gt;https://app.hackthebox.eu/machines/Smasher2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ELiicja60jI&quot;&gt;https://youtu.be/ELiicja60jI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/12/14/htb-smasher2.html&quot;&gt;https://0xdf.gitlab.io/2019/12/14/htb-smasher2.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/smasher2/&quot;&gt;https://0xrick.github.io/hack-the-box/smasher2/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;writeup--le&quot;&gt;Writeup :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Writeup&quot;&gt;https://app.hackthebox.eu/machines/Writeup&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/GKq4cwBfH24&quot;&gt;https://youtu.be/GKq4cwBfH24&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/10/12/htb-writeup.html&quot;&gt;https://0xdf.gitlab.io/2019/10/12/htb-writeup.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/writeup/&quot;&gt;https://0xrick.github.io/hack-the-box/writeup/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chainsaw--lh&quot;&gt;Chainsaw :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Chainsaw&quot;&gt;https://app.hackthebox.eu/machines/Chainsaw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/vESegBSrm_U&quot;&gt;https://youtu.be/vESegBSrm_U&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/23/htb-chainsaw.html&quot;&gt;https://0xdf.gitlab.io/2019/11/23/htb-chainsaw.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/26/htb-chainsaw-rootkit.html&quot;&gt;https://0xdf.gitlab.io/2019/11/26/htb-chainsaw-rootkit.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/chainsaw/&quot;&gt;https://0xrick.github.io/hack-the-box/chainsaw/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jarvis--lm&quot;&gt;Jarvis :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Jarvis&quot;&gt;https://app.hackthebox.eu/machines/Jarvis&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/YHHWvXBfwQ8&quot;&gt;https://youtu.be/YHHWvXBfwQ8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/09/htb-jarvis.html&quot;&gt;https://0xdf.gitlab.io/2019/11/09/htb-jarvis.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/jarvis/&quot;&gt;https://0xrick.github.io/hack-the-box/jarvis/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/jarvis-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/jarvis-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;haystack--le&quot;&gt;Haystack :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Haystack&quot;&gt;https://app.hackthebox.eu/machines/Haystack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/oGO9MEIz_tI&quot;&gt;https://youtu.be/oGO9MEIz_tI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/02/htb-haystack.htmlhttps://0xdf.gitlab.io/2019/10/26/htb-safe.htmlhttps://0xdf.gitlab.io/2019/10/19/htb-ellingson.htmlhttps://0xdf.gitlab.io/2019/10/12/htb-writeup.html&quot;&gt;https://0xdf.gitlab.io/2019/11/02/htb-haystack.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/haystack/&quot;&gt;https://0xrick.github.io/hack-the-box/haystack/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;player--lh&quot;&gt;Player :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Player&quot;&gt;https://app.hackthebox.eu/machines/Player&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/JpzREo7XLOY&quot;&gt;https://youtu.be/JpzREo7XLOY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/dWyPVwu9_6g&quot;&gt;https://youtu.be/dWyPVwu9_6g&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/01/18/htb-player.html&quot;&gt;https://0xdf.gitlab.io/2020/01/18/htb-player.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/player/&quot;&gt;https://0xrick.github.io/hack-the-box/player/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;craft--lm&quot;&gt;Craft :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Craft&quot;&gt;https://app.hackthebox.eu/machines/Craft&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/3znkLWakuUA&quot;&gt;https://youtu.be/3znkLWakuUA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/01/04/htb-craft.html&quot;&gt;https://0xdf.gitlab.io/2020/01/04/htb-craft.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/craft/&quot;&gt;https://0xrick.github.io/hack-the-box/craft/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;re--wh&quot;&gt;RE :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/RE&quot;&gt;https://app.hackthebox.eu/machines/RE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/YXAakamjO_I&quot;&gt;https://youtu.be/YXAakamjO_I&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/_0UuRTxFfjA&quot;&gt;https://youtu.be/_0UuRTxFfjA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/02/01/htb-re.html&quot;&gt;https://0xdf.gitlab.io/2020/02/01/htb-re.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;safe--le&quot;&gt;Safe :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Safe&quot;&gt;https://app.hackthebox.eu/machines/Safe&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/CO_g3wtC7rk&quot;&gt;https://youtu.be/CO_g3wtC7rk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/10/26/htb-safe.html&quot;&gt;https://0xdf.gitlab.io/2019/10/26/htb-safe.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/safe/&quot;&gt;https://0xrick.github.io/hack-the-box/safe/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/safe-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/more-challenging-than-oscp/safe-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;rope--li&quot;&gt;Rope :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Rope&quot;&gt;https://app.hackthebox.eu/machines/Rope&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/GTQxZlr5yvE&quot;&gt;https://youtu.be/GTQxZlr5yvE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/p8XkVDRtTQg&quot;&gt;https://youtu.be/p8XkVDRtTQg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/23/htb-rope.html&quot;&gt;https://0xdf.gitlab.io/2020/05/23/htb-rope.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;heist--we&quot;&gt;Heist :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Heist&quot;&gt;https://app.hackthebox.eu/machines/Heist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/fmBb6BgLsC8&quot;&gt;https://youtu.be/fmBb6BgLsC8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/30/htb-heist.html&quot;&gt;https://0xdf.gitlab.io/2019/11/30/htb-heist.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/heist/&quot;&gt;https://0xrick.github.io/hack-the-box/heist/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;scavenger--lh&quot;&gt;Scavenger :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Scavenger&quot;&gt;https://app.hackthebox.eu/machines/Scavenger&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/rlUTZiqTKgc&quot;&gt;https://youtu.be/rlUTZiqTKgc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/5AQG64lj4mo&quot;&gt;https://youtu.be/5AQG64lj4mo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/02/29/htb-scavenger.html&quot;&gt;https://0xdf.gitlab.io/2020/02/29/htb-scavenger.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;networked--le&quot;&gt;Networked :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Networked&quot;&gt;https://app.hackthebox.eu/machines/Networked&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/H3t3G70bakM&quot;&gt;https://youtu.be/H3t3G70bakM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/11/16/htb-networked.html&quot;&gt;https://0xdf.gitlab.io/2019/11/16/htb-networked.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/networked/&quot;&gt;https://0xrick.github.io/hack-the-box/networked/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/networked-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/networked-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;zetta--lh&quot;&gt;Zetta :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Zetta&quot;&gt;https://app.hackthebox.eu/machines/Zetta&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/8XmTz3A5rUo&quot;&gt;https://youtu.be/8XmTz3A5rUo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/KLCaInLCLuQ&quot;&gt;https://youtu.be/KLCaInLCLuQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/02/22/htb-zetta.html&quot;&gt;https://0xdf.gitlab.io/2020/02/22/htb-zetta.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bitlab--lm&quot;&gt;Bitlab :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bitlab&quot;&gt;https://app.hackthebox.eu/machines/Bitlab&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Fxq6oZ-H-xI&quot;&gt;https://youtu.be/Fxq6oZ-H-xI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/01/11/htb-bitlab.html&quot;&gt;https://0xdf.gitlab.io/2020/01/11/htb-bitlab.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/bitlab/&quot;&gt;https://0xrick.github.io/hack-the-box/bitlab/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;wall--lm&quot;&gt;Wall :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Wall&quot;&gt;https://app.hackthebox.eu/machines/Wall&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/SyWUsN0yHKI&quot;&gt;https://youtu.be/SyWUsN0yHKI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2019/12/07/htb-wall.html&quot;&gt;https://0xdf.gitlab.io/2019/12/07/htb-wall.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/wall/&quot;&gt;https://0xrick.github.io/hack-the-box/wall/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bankrobber--wi&quot;&gt;Bankrobber :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bankrobber&quot;&gt;https://app.hackthebox.eu/machines/Bankrobber&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/zYmA9ECuCio&quot;&gt;https://youtu.be/zYmA9ECuCio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/w2K-bQNs3cg&quot;&gt;https://youtu.be/w2K-bQNs3cg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/03/07/htb-bankrobber.html&quot;&gt;https://0xdf.gitlab.io/2020/03/07/htb-bankrobber.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;json--wm&quot;&gt;Json :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Json&quot;&gt;https://app.hackthebox.eu/machines/Json&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/FPgK_udcBig&quot;&gt;https://youtu.be/FPgK_udcBig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/sZF9sr32SzE&quot;&gt;https://youtu.be/sZF9sr32SzE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/02/15/htb-json.html&quot;&gt;https://0xdf.gitlab.io/2020/02/15/htb-json.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sniper--wm&quot;&gt;Sniper :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sniper&quot;&gt;https://app.hackthebox.eu/machines/Sniper&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/k7gD4ufex9Q&quot;&gt;https://youtu.be/k7gD4ufex9Q&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/MbmPyGFaV9g&quot;&gt;https://youtu.be/MbmPyGFaV9g&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/03/28/htb-sniper.html&quot;&gt;https://0xdf.gitlab.io/2020/03/28/htb-sniper.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/09/htb-sniper-beyondroot.html&quot;&gt;https://0xdf.gitlab.io/2020/04/09/htb-sniper-beyondroot.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;forest--we&quot;&gt;Forest :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Forest&quot;&gt;https://app.hackthebox.eu/machines/Forest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/H9FcE_FMZio&quot;&gt;https://youtu.be/H9FcE_FMZio&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/LcROWwoyOxU&quot;&gt;https://youtu.be/LcROWwoyOxU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/03/21/htb-forest.html&quot;&gt;https://0xdf.gitlab.io/2020/03/21/htb-forest.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/forest-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/windows-boxes/forest-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;registry--lh&quot;&gt;Registry :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Registry&quot;&gt;https://app.hackthebox.eu/machines/Registry&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/w0h0QYswFNA&quot;&gt;https://youtu.be/w0h0QYswFNA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/xgkrHQlfaKA&quot;&gt;https://youtu.be/xgkrHQlfaKA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/04/htb-registry.html&quot;&gt;https://0xdf.gitlab.io/2020/04/04/htb-registry.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;mango--lm&quot;&gt;Mango :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Mango&quot;&gt;https://app.hackthebox.eu/machines/Mango&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/NO_lsfhQK_s&quot;&gt;https://youtu.be/NO_lsfhQK_s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/laah9gT2UR4&quot;&gt;https://youtu.be/laah9gT2UR4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/18/htb-mango.html&quot;&gt;https://0xdf.gitlab.io/2020/04/18/htb-mango.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;postman--le&quot;&gt;Postman :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Postman&quot;&gt;https://app.hackthebox.eu/machines/Postman&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/jJnHET1o8ZQ&quot;&gt;https://youtu.be/jJnHET1o8ZQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/RreWbxlnCj0&quot;&gt;https://youtu.be/RreWbxlnCj0&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/03/14/htb-postman.html&quot;&gt;https://0xdf.gitlab.io/2020/03/14/htb-postman.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ai--lm&quot;&gt;AI :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/AI&quot;&gt;https://app.hackthebox.eu/machines/AI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/7n7YRntu3bc&quot;&gt;https://youtu.be/7n7YRntu3bc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/XQXTCiWEjGk&quot;&gt;https://youtu.be/XQXTCiWEjGk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/01/25/htb-ai.html&quot;&gt;https://0xdf.gitlab.io/2020/01/25/htb-ai.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xrick - &lt;a href=&quot;https://0xrick.github.io/hack-the-box/ai/&quot;&gt;https://0xrick.github.io/hack-the-box/ai/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;traverxec--le&quot;&gt;Traverxec :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Traverxec&quot;&gt;https://app.hackthebox.eu/machines/Traverxec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/6_C9ShH9v2w&quot;&gt;https://youtu.be/6_C9ShH9v2w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/Ti3kZvfLni8&quot;&gt;https://youtu.be/Ti3kZvfLni8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/11/htb-traverxec.html&quot;&gt;https://0xdf.gitlab.io/2020/04/11/htb-traverxec.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;control--wh&quot;&gt;Control :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Control&quot;&gt;https://app.hackthebox.eu/machines/Control&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/kFfYHmLmwVc&quot;&gt;https://youtu.be/kFfYHmLmwVc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/SZr1cQTSB-A&quot;&gt;https://youtu.be/SZr1cQTSB-A&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/04/25/htb-control.html&quot;&gt;https://0xdf.gitlab.io/2020/04/25/htb-control.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;obscurity--lm&quot;&gt;Obscurity :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Obscurity&quot;&gt;https://app.hackthebox.eu/machines/Obscurity&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/veq3w_j0WZQ&quot;&gt;https://youtu.be/veq3w_j0WZQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/_znY-mNj2ps&quot;&gt;https://youtu.be/_znY-mNj2ps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/09/htb-obscurity.html&quot;&gt;https://0xdf.gitlab.io/2020/05/09/htb-obscurity.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;resolute--wm&quot;&gt;Resolute :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Resolute&quot;&gt;https://app.hackthebox.eu/machines/Resolute&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/8KJebvmd1Fk&quot;&gt;https://youtu.be/8KJebvmd1Fk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/0fZp5exCi18&quot;&gt;https://youtu.be/0fZp5exCi18&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/30/htb-resolute.html&quot;&gt;https://0xdf.gitlab.io/2020/05/30/htb-resolute.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/01/resolute-more-beyond-root.html&quot;&gt;https://0xdf.gitlab.io/2020/06/01/resolute-more-beyond-root.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;playertwo--li&quot;&gt;PlayerTwo :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/PlayerTwo&quot;&gt;https://app.hackthebox.eu/machines/PlayerTwo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ehoh6g5dSWk&quot;&gt;https://youtu.be/ehoh6g5dSWk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/u_GkIzCmU90&quot;&gt;https://youtu.be/u_GkIzCmU90&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/27/htb-playertwo.html&quot;&gt;https://0xdf.gitlab.io/2020/06/27/htb-playertwo.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;openadmin--le&quot;&gt;OpenAdmin :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/OpenAdmin&quot;&gt;https://app.hackthebox.eu/machines/OpenAdmin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/fdD-JTlkd3k&quot;&gt;https://youtu.be/fdD-JTlkd3k&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/2AhUspCfhT8&quot;&gt;https://youtu.be/2AhUspCfhT8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/02/htb-openadmin.html&quot;&gt;https://0xdf.gitlab.io/2020/05/02/htb-openadmin.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;monteverde--wm&quot;&gt;Monteverde :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Monteverde&quot;&gt;https://app.hackthebox.eu/machines/Monteverde&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/HTJjPZvOtJ4&quot;&gt;https://youtu.be/HTJjPZvOtJ4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/OG_wJNu9zGk&quot;&gt;https://youtu.be/OG_wJNu9zGk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/13/htb-monteverde.html&quot;&gt;https://0xdf.gitlab.io/2020/06/13/htb-monteverde.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;patents--lh&quot;&gt;Patents :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Patents&quot;&gt;https://app.hackthebox.eu/machines/Patents&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/XqsURG_agvY&quot;&gt;https://youtu.be/XqsURG_agvY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/TtAa0vFyXYU&quot;&gt;https://youtu.be/TtAa0vFyXYU&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/05/16/htb-patents.html&quot;&gt;https://0xdf.gitlab.io/2020/05/16/htb-patents.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;nest--we&quot;&gt;Nest :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Nest&quot;&gt;https://app.hackthebox.eu/machines/Nest&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/tDbVw6uGx8g&quot;&gt;https://youtu.be/tDbVw6uGx8g&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/zp9P2ZLK4zk&quot;&gt;https://youtu.be/zp9P2ZLK4zk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/06/htb-nest.html&quot;&gt;https://0xdf.gitlab.io/2020/06/06/htb-nest.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another related walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/01/26/digging-into-psexec-with-htb-nest.html&quot;&gt;https://0xdf.gitlab.io/2020/01/26/digging-into-psexec-with-htb-nest.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fatty--li&quot;&gt;Fatty :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Fatty&quot;&gt;https://app.hackthebox.eu/machines/Fatty&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/3bvKLj0akMM&quot;&gt;https://youtu.be/3bvKLj0akMM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/08/htb-fatty.html&quot;&gt;https://0xdf.gitlab.io/2020/08/08/htb-fatty.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sauna--we&quot;&gt;Sauna :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sauna&quot;&gt;https://app.hackthebox.eu/machines/Sauna&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/uLNpR3AnE-Y&quot;&gt;https://youtu.be/uLNpR3AnE-Y&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/EJB_LiZypaM&quot;&gt;https://youtu.be/EJB_LiZypaM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/18/htb-sauna.html&quot;&gt;https://0xdf.gitlab.io/2020/07/18/htb-sauna.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;book--lm&quot;&gt;Book :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Book&quot;&gt;https://app.hackthebox.eu/machines/Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/RBtN5939m3g&quot;&gt;https://youtu.be/RBtN5939m3g&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/7QXzebQHEWA&quot;&gt;https://youtu.be/7QXzebQHEWA&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/11/htb-book.html&quot;&gt;https://0xdf.gitlab.io/2020/07/11/htb-book.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;oouch--lh&quot;&gt;Oouch :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Oouch&quot;&gt;https://app.hackthebox.eu/machines/Oouch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/EUtqjK27MxQ&quot;&gt;https://youtu.be/EUtqjK27MxQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/01/htb-oouch.html&quot;&gt;https://0xdf.gitlab.io/2020/08/01/htb-oouch.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;multimaster--wi&quot;&gt;Multimaster :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Multimaster&quot;&gt;https://app.hackthebox.eu/machines/Multimaster&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/iwR746pfTEc&quot;&gt;https://youtu.be/iwR746pfTEc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/19/htb-multimaster.html&quot;&gt;https://0xdf.gitlab.io/2020/09/19/htb-multimaster.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;traceback--le&quot;&gt;Traceback :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Traceback&quot;&gt;https://app.hackthebox.eu/machines/Traceback&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/OI7PbBT589E&quot;&gt;https://youtu.be/OI7PbBT589E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/15/htb-traceback.html&quot;&gt;https://0xdf.gitlab.io/2020/08/15/htb-traceback.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;remote--we&quot;&gt;Remote :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Remote&quot;&gt;https://app.hackthebox.eu/machines/Remote&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/iyYqgseKUPM&quot;&gt;https://youtu.be/iyYqgseKUPM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/05/htb-remote.html&quot;&gt;https://0xdf.gitlab.io/2020/09/05/htb-remote.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/08/roguepotato-on-remote.html&quot;&gt;https://0xdf.gitlab.io/2020/09/08/roguepotato-on-remote.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cascade--wm&quot;&gt;Cascade :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Cascade&quot;&gt;https://app.hackthebox.eu/machines/Cascade&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/mr-fsVLoQGw&quot;&gt;https://youtu.be/mr-fsVLoQGw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/25/htb-cascade.html&quot;&gt;https://0xdf.gitlab.io/2020/07/25/htb-cascade.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;forwardslash--lh&quot;&gt;ForwardSlash :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/ForwardSlash&quot;&gt;https://app.hackthebox.eu/machines/ForwardSlash&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/alJa51XylDE&quot;&gt;https://youtu.be/alJa51XylDE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/1V1Xd10SEEY&quot;&gt;https://youtu.be/1V1Xd10SEEY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/07/04/htb-forwardslash.html&quot;&gt;https://0xdf.gitlab.io/2020/07/04/htb-forwardslash.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;servmon--we&quot;&gt;ServMon :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/ServMon&quot;&gt;https://app.hackthebox.eu/machines/ServMon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/4tCD0GemXYg&quot;&gt;https://youtu.be/4tCD0GemXYg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/06/20/htb-servmon.html&quot;&gt;https://0xdf.gitlab.io/2020/06/20/htb-servmon.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;magic--lm&quot;&gt;Magic :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Magic&quot;&gt;https://app.hackthebox.eu/machines/Magic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/bLIcew9Iot8&quot;&gt;https://youtu.be/bLIcew9Iot8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/22/htb-magic.html&quot;&gt;https://0xdf.gitlab.io/2020/08/22/htb-magic.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/magic-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/magic-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;quick--lh&quot;&gt;Quick :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Quick&quot;&gt;https://app.hackthebox.eu/machines/Quick&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/BFSdJYS1gFs&quot;&gt;https://youtu.be/BFSdJYS1gFs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/08/29/htb-quick.html&quot;&gt;https://0xdf.gitlab.io/2020/08/29/htb-quick.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;admirer--le&quot;&gt;Admirer :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Admirer&quot;&gt;https://app.hackthebox.eu/machines/Admirer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/_zMg0fHwwfw&quot;&gt;https://youtu.be/_zMg0fHwwfw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/26/htb-admirer.html&quot;&gt;https://0xdf.gitlab.io/2020/09/26/htb-admirer.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;cache--lm&quot;&gt;Cache :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Cache&quot;&gt;https://app.hackthebox.eu/machines/Cache&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/kfLU5-Eeyhw&quot;&gt;https://youtu.be/kfLU5-Eeyhw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/10/10/htb-cache.html&quot;&gt;https://0xdf.gitlab.io/2020/10/10/htb-cache.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;travel--lh&quot;&gt;Travel :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Travel&quot;&gt;https://app.hackthebox.eu/machines/Travel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/VofMBg2VLnw&quot;&gt;https://youtu.be/VofMBg2VLnw&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/09/12/htb-travel.html&quot;&gt;https://0xdf.gitlab.io/2020/09/12/htb-travel.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;dyplesher--li&quot;&gt;Dyplesher :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Dyplesher&quot;&gt;https://app.hackthebox.eu/machines/Dyplesher&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/F6oSpOWOjSQ&quot;&gt;https://youtu.be/F6oSpOWOjSQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/10/24/htb-dyplesher.html&quot;&gt;https://0xdf.gitlab.io/2020/10/24/htb-dyplesher.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blunder--le&quot;&gt;Blunder :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Blunder&quot;&gt;https://app.hackthebox.eu/machines/Blunder&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/G5iw8c2vXuk&quot;&gt;https://youtu.be/G5iw8c2vXuk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/10/17/htb-blunder.html&quot;&gt;https://0xdf.gitlab.io/2020/10/17/htb-blunder.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;blackfield--wh&quot;&gt;Blackfield :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Blackfield&quot;&gt;https://app.hackthebox.eu/machines/Blackfield&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/IfCysW0Od8w&quot;&gt;https://youtu.be/IfCysW0Od8w&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/10/03/htb-blackfield.html&quot;&gt;https://0xdf.gitlab.io/2020/10/03/htb-blackfield.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fuse--wm&quot;&gt;Fuse :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Fuse&quot;&gt;https://app.hackthebox.eu/machines/Fuse&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/VxbC03xmS60&quot;&gt;https://youtu.be/VxbC03xmS60&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/10/31/htb-fuse.html&quot;&gt;https://0xdf.gitlab.io/2020/10/31/htb-fuse.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tabby--le&quot;&gt;Tabby :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Tabby&quot;&gt;https://app.hackthebox.eu/machines/Tabby&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/yTHtLi9YZ2s&quot;&gt;https://youtu.be/yTHtLi9YZ2s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/11/07/htb-tabby.html&quot;&gt;https://0xdf.gitlab.io/2020/11/07/htb-tabby.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by Rana Khalil - &lt;a href=&quot;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/tabby-writeup-w-o-metasploit&quot;&gt;https://rana-khalil.gitbook.io/hack-the-box-oscp-preparation/linux-boxes/tabby-writeup-w-o-metasploit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;ropetwo--li&quot;&gt;RopeTwo :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/RopeTwo&quot;&gt;https://app.hackthebox.eu/machines/RopeTwo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/m6Fpc3zxrJg&quot;&gt;https://youtu.be/m6Fpc3zxrJg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/01/16/htb-ropetwo.html&quot;&gt;https://0xdf.gitlab.io/2021/01/16/htb-ropetwo.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;intense--lh&quot;&gt;Intense :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Intense&quot;&gt;https://app.hackthebox.eu/machines/Intense&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/nBg6zUalb7c&quot;&gt;https://youtu.be/nBg6zUalb7c&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/11/14/htb-intense.html&quot;&gt;https://0xdf.gitlab.io/2020/11/14/htb-intense.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sneakymailer--lm&quot;&gt;SneakyMailer :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/SneakyMailer&quot;&gt;https://app.hackthebox.eu/machines/SneakyMailer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/f4vQhI4ADmI&quot;&gt;https://youtu.be/f4vQhI4ADmI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/11/28/htb-sneakymailer.html&quot;&gt;https://0xdf.gitlab.io/2020/11/28/htb-sneakymailer.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;buff--we&quot;&gt;Buff :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Buff&quot;&gt;https://app.hackthebox.eu/machines/Buff&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/-KBm3tBNK74&quot;&gt;https://youtu.be/-KBm3tBNK74&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/11/21/htb-buff.html&quot;&gt;https://0xdf.gitlab.io/2020/11/21/htb-buff.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;openkeys--om&quot;&gt;OpenKeyS :: OM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/OpenKeyS&quot;&gt;https://app.hackthebox.eu/machines/OpenKeyS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/krsGwWrTQ7E&quot;&gt;https://youtu.be/krsGwWrTQ7E&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/12/12/htb-openkeys.html&quot;&gt;https://0xdf.gitlab.io/2020/12/12/htb-openkeys.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unbalanced--lh&quot;&gt;Unbalanced :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Unbalanced&quot;&gt;https://app.hackthebox.eu/machines/Unbalanced&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/L_FYYJPVywM&quot;&gt;https://youtu.be/L_FYYJPVywM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/12/05/htb-unbalanced.html&quot;&gt;https://0xdf.gitlab.io/2020/12/05/htb-unbalanced.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;laser--li&quot;&gt;Laser :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Laser&quot;&gt;https://app.hackthebox.eu/machines/Laser&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/vD3jSJlc0ro&quot;&gt;https://youtu.be/vD3jSJlc0ro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2020/12/19/htb-laser.html&quot;&gt;https://0xdf.gitlab.io/2020/12/19/htb-laser.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;worker--wm&quot;&gt;Worker :: WM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Worker&quot;&gt;https://app.hackthebox.eu/machines/Worker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Auqt-NSB4SQ&quot;&gt;https://youtu.be/Auqt-NSB4SQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/01/30/htb-worker.html&quot;&gt;https://0xdf.gitlab.io/2021/01/30/htb-worker.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;omni--oe&quot;&gt;Omni :: OE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Omni&quot;&gt;https://app.hackthebox.eu/machines/Omni&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/MVDNV_bvJcI&quot;&gt;https://youtu.be/MVDNV_bvJcI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/01/09/htb-omni.html&quot;&gt;https://0xdf.gitlab.io/2021/01/09/htb-omni.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;feline--lh&quot;&gt;Feline :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Feline&quot;&gt;https://app.hackthebox.eu/machines/Feline&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/2QdK7tQUFac&quot;&gt;https://youtu.be/2QdK7tQUFac&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/20/htb-feline.html&quot;&gt;https://0xdf.gitlab.io/2021/02/20/htb-feline.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;passage--lm&quot;&gt;Passage :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Passage&quot;&gt;https://app.hackthebox.eu/machines/Passage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/kbw4_4jUP_U&quot;&gt;https://youtu.be/kbw4_4jUP_U&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/DxoS3PkY1f8&quot;&gt;https://youtu.be/DxoS3PkY1f8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/06/htb-passage.html&quot;&gt;https://0xdf.gitlab.io/2021/03/06/htb-passage.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;compromised--lh&quot;&gt;Compromised :: LH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Compromised&quot;&gt;https://app.hackthebox.eu/machines/Compromised&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/yaV09XCDDqI&quot;&gt;https://youtu.be/yaV09XCDDqI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/01/23/htb-compromised.html&quot;&gt;https://0xdf.gitlab.io/2021/01/23/htb-compromised.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;crossfit--li&quot;&gt;CrossFit :: LI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/CrossFit&quot;&gt;https://app.hackthebox.eu/machines/CrossFit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Z3Lj_YN0crc&quot;&gt;https://youtu.be/Z3Lj_YN0crc&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/jSYRyhY9JuE&quot;&gt;https://youtu.be/jSYRyhY9JuE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/20/htb-crossfit.html&quot;&gt;https://0xdf.gitlab.io/2021/03/20/htb-crossfit.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;doctor--le&quot;&gt;Doctor :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Doctor&quot;&gt;https://app.hackthebox.eu/machines/Doctor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/JcOR9krOPFY&quot;&gt;https://youtu.be/JcOR9krOPFY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/06/htb-doctor.html&quot;&gt;https://0xdf.gitlab.io/2021/02/06/htb-doctor.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reel2--wh&quot;&gt;Reel2 :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Reel2&quot;&gt;https://app.hackthebox.eu/machines/Reel2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/Ro2vXt_WFDQ&quot;&gt;https://youtu.be/Ro2vXt_WFDQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/Dt7nyjSFOTk&quot;&gt;https://youtu.be/Dt7nyjSFOTk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/13/htb-reel2.html&quot;&gt;https://0xdf.gitlab.io/2021/03/13/htb-reel2.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Another way to get shell by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/15/reel2-root-shell.html&quot;&gt;https://0xdf.gitlab.io/2021/03/15/reel2-root-shell.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jewel--lm&quot;&gt;Jewel :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Jewel&quot;&gt;https://app.hackthebox.eu/machines/Jewel&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/OO9by3_Zmpk&quot;&gt;https://youtu.be/OO9by3_Zmpk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/13/htb-jewel.html&quot;&gt;https://0xdf.gitlab.io/2021/02/13/htb-jewel.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bucket--lm&quot;&gt;Bucket :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Bucket&quot;&gt;https://app.hackthebox.eu/machines/Bucket&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/SgWhuTxm2oY&quot;&gt;https://youtu.be/SgWhuTxm2oY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/zNJ-QnC_Fpg&quot;&gt;https://youtu.be/zNJ-QnC_Fpg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/04/24/htb-bucket.html&quot;&gt;https://0xdf.gitlab.io/2021/04/24/htb-bucket.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;time--lm&quot;&gt;Time :: LM&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Time&quot;&gt;https://app.hackthebox.eu/machines/Time&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/JfonPpbX-oI&quot;&gt;https://youtu.be/JfonPpbX-oI&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/9Lf8qwk_YPE&quot;&gt;https://youtu.be/9Lf8qwk_YPE&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/04/03/htb-time.html&quot;&gt;https://0xdf.gitlab.io/2021/04/03/htb-time.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;apt--wi&quot;&gt;APT :: WI&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/APT&quot;&gt;https://app.hackthebox.eu/machines/APT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/eRnqtXwCZVs&quot;&gt;https://youtu.be/eRnqtXwCZVs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/ZnUIiVwNSHk&quot;&gt;https://youtu.be/ZnUIiVwNSHk&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/04/10/htb-apt.html&quot;&gt;https://0xdf.gitlab.io/2021/04/10/htb-apt.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;academy--le&quot;&gt;Academy :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Academy&quot;&gt;https://app.hackthebox.eu/machines/Academy&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/yQl5RA6APyQ&quot;&gt;https://youtu.be/yQl5RA6APyQ&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/5sBQA37G-VY&quot;&gt;https://youtu.be/5sBQA37G-VY&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/02/27/htb-academy.html&quot;&gt;https://0xdf.gitlab.io/2021/02/27/htb-academy.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;laboratory--le&quot;&gt;Laboratory :: LE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Laboratory&quot;&gt;https://app.hackthebox.eu/machines/Laboratory&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/ozmHeApuSj8&quot;&gt;https://youtu.be/ozmHeApuSj8&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/yKvIcrho_78&quot;&gt;https://youtu.be/yKvIcrho_78&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/04/17/htb-laboratory.html&quot;&gt;https://0xdf.gitlab.io/2021/04/17/htb-laboratory.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;luanne--oe&quot;&gt;Luanne :: OE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Luanne&quot;&gt;https://app.hackthebox.eu/machines/Luanne&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/-KxvC3NY0Wo&quot;&gt;https://youtu.be/-KxvC3NY0Wo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video walkthrough by xct - &lt;a href=&quot;https://youtu.be/TlFmnbEAi1s&quot;&gt;https://youtu.be/TlFmnbEAi1s&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/03/27/htb-luanne.html&quot;&gt;https://0xdf.gitlab.io/2021/03/27/htb-luanne.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;toolbox--we&quot;&gt;Toolbox :: WE&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Toolbox&quot;&gt;https://app.hackthebox.eu/machines/Toolbox&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/04/27/htb-toolbox.html&quot;&gt;https://0xdf.gitlab.io/2021/04/27/htb-toolbox.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sharp--wh&quot;&gt;Sharp :: WH&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Machine Profile - &lt;a href=&quot;https://app.hackthebox.eu/machines/Sharp&quot;&gt;https://app.hackthebox.eu/machines/Sharp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video Walkthrough by ippsec - &lt;a href=&quot;https://youtu.be/lxjAZELJ96Q&quot;&gt;https://youtu.be/lxjAZELJ96Q&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Video Walkthrough by xct - &lt;a href=&quot;https://youtu.be/HBERg8jsx4U&quot;&gt;https://youtu.be/HBERg8jsx4U&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Walkthrough by 0xdf - &lt;a href=&quot;https://0xdf.gitlab.io/2021/05/01/htb-sharp.html&quot;&gt;https://0xdf.gitlab.io/2021/05/01/htb-sharp.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;&lt;b&gt;I&apos;m on &lt;a href=&quot;https://www.buymeacoffee.com/iamsarvagyaa&quot; target=&quot;_blank&quot;&gt;buymeacoffee&lt;/a&gt;, you can join with me on buymeacoffee :smile:&lt;/b&gt;&lt;/center&gt;</content><author><name>Sarvagya Sagar</name></author><category term="Hack The Box" /><category term="Writeups" /><category term="Resources" /><category term="Penetration Testing" /><category term="Challenges" /><summary type="html">Hello to all of you! I hope you all are well in this pandemic. I started doing hackthebox machines; that’s why I created a list of hackthebox machine walkthroughs. I love to read/watch walkthroughs by 0xdf, ippsec, and xct. I will update this regularly. We all know that how much hackthebox machines are good, and we all want to read walkthroughs. :heart:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://iamsarvagyaa.github.io/images/hackthebox/banner.png" /><media:content medium="image" url="https://iamsarvagyaa.github.io/images/hackthebox/banner.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Diving in Android Security</title><link href="https://iamsarvagyaa.github.io/android-security-part-one/" rel="alternate" type="text/html" title="Diving in Android Security" /><published>2021-04-23T00:00:00+05:30</published><updated>2021-04-23T00:00:00+05:30</updated><id>https://iamsarvagyaa.github.io/android-security-part-one</id><content type="html" xml:base="https://iamsarvagyaa.github.io/android-security-part-one/">&lt;p&gt;Hello everyone, This is my first blog post. Many of my friends suggested me to get into &lt;em&gt;Android Security&lt;/em&gt;. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article.&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p class=&quot;notice--success&quot;&gt;:bulb: I will not show you how to install and set up an Android pentesting lab. Rather, I will tell you some good tools to help you with the pentesting Android application…&lt;/p&gt;
+
+&lt;p&gt;There are no prerequisites to learn android pentesting, but if you know android development and have a good understanding of How the web and internet works, this will help you. By the way, I will try to explain more simply and easily. I hope you will learn something. 🙂 Basically, the android operating system is a &lt;strong&gt;Linux-based operating system&lt;/strong&gt; platform, which Google developed. Nowadays, the android is a foundation of many devices like android phones, smartwatches, smart TVs, and many more things that work on the Android operating system. That’s why I’m saying android application security is in high demand because we all know that most companies are shifting their whole business to mobile applications. So, we have more chances to get paid in android-security. This small blog post will describe android fundamentals. First of all, I’m going to introduce the structure of this android series …&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Android’s Architecture&lt;/li&gt;
+  &lt;li&gt;Android components and android apk structure in detail.&lt;/li&gt;
+  &lt;li&gt;How android applications are built and run.&lt;/li&gt;
+  &lt;li&gt;Reading and Understanding of smali code.&lt;/li&gt;
+  &lt;li&gt;Understanding AndroidManifest file in detail.&lt;/li&gt;
+  &lt;li&gt;Tools Intro - Tools that will give you supernatural powers.&lt;/li&gt;
+  &lt;li&gt;Information Gathering, Methodologies, and Workflows.&lt;/li&gt;
+  &lt;li&gt;Static analysis vs. Dynamic analysis.&lt;/li&gt;
+  &lt;li&gt;Reversing Android applications for fun and profit.&lt;/li&gt;
+  &lt;li&gt;Walkthroughs of vulnerable android applications like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;InjuredAndroid&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DIVA&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mstg-crackme&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These are upcoming blog posts. Well, I don’t know much more about android application security. I planned this series to help others and for myself too. I will also write a detailed blog post about Automating your workflow in android pentesting. Now, I’m going to cover &lt;em&gt;Android’s architecture&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;androids-architecture&quot;&gt;Android’s Architecture&lt;/h2&gt;
+
+&lt;p&gt;Android app can be written in Java, Kotlin, and C++, but nowadays, there are many frameworks available to create android applications. One of the most popular frameworks is Flutter. Their lot of android applications are developed in a flutter. &lt;strong&gt;Android SDK&lt;/strong&gt; compiles your source code and the manifest, data, and resources files into an archived android package with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.apk&lt;/code&gt; extension. Android applications don’t have direct access to hardware resources, and each app lives in its own security sandbox. By default, each application has access to the components required to do its work. Android system implements the principle of least privileges. &lt;em&gt;This will create a very secure environment in which the app can’t communicate with other parts of the android system without permission&lt;/em&gt;. We will learn more about permissions and application sandboxing features in the next blog post. Now, let’s understand the essential part, the architecture of the android application.&lt;/p&gt;
+
+&lt;p&gt;The architecture of the Android stack consists of &lt;em&gt;pre-installed applications, native libraries, android Application Interface (API) frameworks, Android Runtime (ART), Hardware Abstraction Layer (HAL), and Linux kernel&lt;/em&gt;. Now, understand one by one what are the uses and work of these layers.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/android-security/android-archit.jpg&quot; alt=&quot;Android Architecture&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Starting from the bottom layer, which is the &lt;strong&gt;Linux kernel&lt;/strong&gt;. We can say the Linux kernel is the heart of the android operating system. If you’re from a UNIX background, you will know that the kernel provides drivers for hardware and core services like memory management, process management, and file system access. On top of the kernel is the &lt;strong&gt;Hardware Abstraction Layer&lt;/strong&gt; which acts as an abstraction between the android’s physical hardware and its components. HAL consists of multiple library modules which implement an interface for a particular type of hardware component. When an API framework calls to access the hardware, the library module will load for the hardware component. For example, if an application wants to connect with the camera, it will allow an application to use a camera and sensor. Above HAL, there is native userspace which consists of &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;native libraries&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;native daemons&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;init binary&lt;/code&gt;. Init binary is a process that starts other processes in Android. Native libraries are written in C/C++ core libraries and java libraries. These libraries get exposed to you through the API frameworks. Another side we have Android Runtime :heart:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Android Runtime:&lt;/strong&gt; An alternative to the Dalvik Virtual Machine. After Android version 4.4, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Android Runtime (ART)&lt;/code&gt; is introduced, which have major changes and features, and this change replaced the Dalvik VM. Specially, Android Runtime is written to run multiple machines by executing &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DEX files&lt;/code&gt;. After android version 4.4, each app runs into its own process and its own instance of the Android Runtime (ART). In the next upcoming post, we will learn in detail. Along with Android Runtime, there are also core java libraries that are important to run an application.&lt;/p&gt;
+
+&lt;p&gt;The top and upper part of Android’s architecture is &lt;strong&gt;API frameworks and pre-installed applications&lt;/strong&gt;. These APIs help you to reuse code of core modular system components. These API frameworks are written in java and consist of managers, content providers, view systems, etc. You can use these APIs to control what your app looks like and how it behaves. It provides a lot of classes and interfaces for android application development. At last, android comes with a pre-installed application such as calendar, Home, Contacts, etc.&lt;/p&gt;
+
+&lt;p&gt;There lot of things to learn in the basics of the Android security model, and I will try to explain them in a detailed way. We’ll cover all the topics like the &lt;em&gt;permission model, privilege separation and sandboxing, Storage and database isolation, filesystem isolation, broadcast receivers, application booting process, application signing&lt;/em&gt;, etc. Now, I’m going to tell you OWASP Mobile Top 10 in short because you’ll get an overview of the present at-risk attacks.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Improper Platform Usage:&lt;/strong&gt; Attack covers misuse of platform features and improper platform security controls. Attack scenarios like leakage of Data via exploiting android intent, Sniffing of android intent, Poor web services authentication and configuration, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insecure Data Storage:&lt;/strong&gt; This attack is marked on the second number, attack scenarios like accessing internal files/logs if a mobile device is stolen, exploiting unsecured data, compromised file systems like SQL databases, sd cards, cookies stores, etc.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insecure Communication:&lt;/strong&gt; Man in the Middle attack, Stealing information through insecure wifi-connection, and compromised radio-frequency related traffic can be marked as Insecure Communication.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insecure Authentication:&lt;/strong&gt; Typically, exploitation of authentication is automated through many tools or self-build tools. Scenarios like exploitation of Input form and hidden service requests are in this vulnerability.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insufficient Cryptography:&lt;/strong&gt; In most cases, developers use MD5, SHA1, RC2, MD4, etc., which causes stealing of user data easily, and also hackers can access insecure encrypted files.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Insecure Authorization:&lt;/strong&gt; Unauthenticated access to admin endpoints and panel, IDORS, etc related scenarios can covers this attack.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Poor Code Quality:&lt;/strong&gt; Exploitation of this attack is difficult; however, we can perform buffer overflow, client input bypassing, etc., like attacks.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Code Tampering:&lt;/strong&gt; An attacker can exploit code modification via malicious input fields of the apps hosted in third-party app stores. Phishing, Spreading of malware are in this attack vector.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Reverse Engineering:&lt;/strong&gt; Attackers can easily analyze the app’s internals and link with server processes. Bypassing of premium features, Code stealing, etc., related scenarios are in Reverse Engineering.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Extraneous Functionality:&lt;/strong&gt; An attacker can download the app and can examine the log files, configuration files, can create logs to examine the errors, and can also pull stagging information. These scenarios are in Extraneous Functionality, and this is the last attack of OWASP Mobile.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;One of thing more, this will take time because I have less time to write a blog post. In the next post, we will learn about android components and the structure of android applications in detail. Thank you for reading this small blog post, and I hope you learned something from this :handshake:&lt;/p&gt;
+
+&lt;center&gt;&lt;b&gt;I&apos;m on &lt;a href=&quot;https://www.buymeacoffee.com/iamsarvagyaa&quot; target=&quot;_blank&quot;&gt;buymeacoffee&lt;/a&gt;, you can join with me on buymeacoffee :smile:&lt;/b&gt;&lt;/center&gt;</content><author><name>Sarvagya Sagar</name></author><category term="Android Security" /><category term="Android" /><category term="Beginner" /><category term="Pentesting" /><summary type="html">Hello everyone, This is my first blog post. Many of my friends suggested me to get into Android Security. I started learning android security and learned many things, but I faced a lot of problems. So I wanted to create a series of blog posts to guide those peeps who wanna get into android security. You know what? There are fewer resources about android security on the Internet. This article will explain some android internals, which helps us to understand the android architecture. I’m a complete newbie in android security, So pardon me if there any mistake in this article, or you can correct me if there’s any mistake in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://iamsarvagyaa.github.io/images/android-security/hero-thumbnail.png" /><media:content medium="image" url="https://iamsarvagyaa.github.io/images/android-security/hero-thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
