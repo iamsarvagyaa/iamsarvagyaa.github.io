@@ -7,7 +7,7 @@ title: "Sarvagya Sagar"
 description: "Trekking on the path of Recon to Exploit stuff out there."
 baseurl: 
 url: https://iamsarvagyaa.github.io
-logo: "/images/myimage.jpg"
+logo: "/images/my.jpg"
 date_format: "%B %-d, %Y"
 read_time: true 
 words_per_minute: 200
@@ -84,7 +84,7 @@ defaults:
 # Site Author
 author:
   name: Sarvagya Sagar
-  picture: /images/myimage.jpg
+  picture: /images/author.png
   email: iamsarvagyaa@gmail.com
   twitter: iamsarvagyaa
   links:
@@ -115,4 +115,3 @@ footer_links:
   - title: LinkedIn
     url: https://linkedin.com/in/iamsarvagyaa
     icon: fab fa-linkedin
-

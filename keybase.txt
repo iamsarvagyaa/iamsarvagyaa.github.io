@@ -1,0 +1,60 @@
+---
+layout: none
+permalink: .well-known/keybase.txt
+---
+==================================================================
+https://keybase.io/iamsarvagyaa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://iamsarvagyaa.github.io
+  * I am iamsarvagyaa (https://keybase.io/iamsarvagyaa) on keybase.
+  * I have a public key ASCsRjQpv30WoBAQ1-Be4-NitB93dZlgNDeXBvej79-hYQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012005ed65cc43e15c4a0f38a1c07bdc477707a65a1e14c5714d8cc9d603f2908e190a",
+      "host": "keybase.io",
+      "kid": "0120ac463429bf7d16a01010d7e05ee3e362b41f7775996034379706f7a3efdfa1610a",
+      "uid": "108c83d564517836aa8c09fa24286119",
+      "username": "iamsarvagyaa"
+    },
+    "merkle_root": {
+      "ctime": 1623055307,
+      "hash": "ee419973ab72da6f893e91898b2bc54dbac1b496595fb6097856db29670da38a6b87a37fb5000731375aeea1f76eb39ecf1dd240132c674ae2b957832beddc31",
+      "hash_meta": "0989426c4f453f5e9f06f4ccf45e37c93476a34da8226bdb65de6dcbb4d92c44",
+      "seqno": 20129479
+    },
+    "service": {
+      "entropy": "SGkoKJRbECp3CIw6ZzW9MZer",
+      "hostname": "iamsarvagyaa.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.1"
+  },
+  "ctime": 1623055539,
+  "expire_in": 504576000,
+  "prev": "a52ad2b2fbb72a396bcd21df1113e944192d25f3d13d33afd85536ac5bf9be85",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrEY0Kb99FqAQENfgXuPjYrQfd3WZYDQ3lwb3o+/foWEKp3BheWxvYWTESpcCIcQgpSrSsvu3KjlrzSHfERPpRBktJfPRPTOv2FU2rFv5voXEIKhYEQFRze8U6zdGZkEmy49blSwuq+yg4+wxyg+DTsDiAgHCo3NpZ8RAUZ8hmX2jao7+Mr8ID//6SjQUcnryXzfZhdWWyjQg1mJp3y++zCO0HQ1KIeDFR6uhyFs9lLG22cZVg1DGCYXCD6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEII73y3N9uMXgIT4auMFuQPwSW1Wrd1eWTCwEJRld302vo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/iamsarvagyaa
+
+==================================================================
